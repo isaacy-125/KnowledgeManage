@@ -4,12 +4,19 @@
 1.[Lodash 中文文档(v4.16.1)](http://www.css88.com/doc/lodash/)
 # React
 1.[Redux 入门教程（一）：基本用法](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
+
 2.[Redux 中文文档](http://www.redux.org.cn/)
+
 3.[react-router v4 使用 history 控制路由跳转](https://segmentfault.com/a/1190000011137828)
+
 4.[React组件性能调优](http://react-china.org/t/react/11562)
+
 5.[react长列表优化方案: react-virtualized](https://juejin.im/post/5af03345f265da0b7964cf50)
+
 6.[ReactV16.3即将更改的生命周期](https://www.zcfy.cc/article/update-on-async-rendering)
+
 7.[从React到React Fiber](https://www.jianshu.com/p/9b71f91a0b21)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 2.[Immutable documents](http://facebook.github.io/immutable-js/docs/#/)
