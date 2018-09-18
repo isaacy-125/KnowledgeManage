@@ -17,6 +17,8 @@
 
 7.[从React到React Fiber](https://www.jianshu.com/p/9b71f91a0b21)
 
+8.[聊聊React v16.3的UNSAFE类生命周期](https://juejin.im/post/5b97abcaf265da0afa3dcb2e)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
