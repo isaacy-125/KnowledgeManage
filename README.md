@@ -19,6 +19,8 @@
 
 8.[聊聊React v16.3的UNSAFE类生命周期](https://juejin.im/post/5b97abcaf265da0afa3dcb2e)
 
+9.[React Profiler 介绍](https://juejin.im/post/5ba0f8e4f265da0ab915bcf2)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
