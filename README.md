@@ -105,6 +105,8 @@
 
 19.[JS的分号可以省掉吗?](https://blog.fundebug.com/2018/09/18/js-semicolon-bug/)
 
+20.[不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/post/5abdd6f6f265da23793c4458)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
