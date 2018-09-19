@@ -101,6 +101,8 @@
 
 18.[Javascript 异步加载详解](https://www.cnblogs.com/hq233/p/7102549.html)
 
+19.[JS的分号可以省掉吗?](https://blog.fundebug.com/2018/09/18/js-semicolon-bug/)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
