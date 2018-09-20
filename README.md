@@ -107,6 +107,8 @@
 
 20.[不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/post/5abdd6f6f265da23793c4458)
 
+21.[JavaScript 数据类型检测终极解决方案](https://juejin.im/post/5ba221fb6fb9a05d3c7ff01c)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
