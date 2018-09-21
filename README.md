@@ -21,8 +21,7 @@
 
 9.[React Profiler 介绍](https://juejin.im/post/5ba0f8e4f265da0ab915bcf2)
 
-10.[DvaJS--一个解决redux使用繁琐的整套框架]
-(https://dvajs.com/)
+10.[DvaJS--一个解决redux使用繁琐的整套框架](https://dvajs.com/)
 
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
