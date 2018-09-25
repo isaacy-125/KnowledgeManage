@@ -21,8 +21,7 @@
 
 9.[React Profiler 介绍](https://juejin.im/post/5ba0f8e4f265da0ab915bcf2)
 
-10.[DvaJS--一个解决redux使用繁琐的整套框架]
-(https://dvajs.com/)
+10.[DvaJS--一个解决redux使用繁琐的整套框架](https://dvajs.com/)
 
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
@@ -111,6 +110,8 @@
 20.[不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/post/5abdd6f6f265da23793c4458)
 
 21.[JavaScript 数据类型检测终极解决方案](https://juejin.im/post/5ba221fb6fb9a05d3c7ff01c)
+
+22.[如何优雅地链式取值](https://juejin.im/post/5ba08483e51d450e99430a7f)
 
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
