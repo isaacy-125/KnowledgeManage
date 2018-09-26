@@ -73,6 +73,8 @@
 
 5.[Canvas-web API接口](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API)
 
+6.[CSS3教程:pointer-events属性值详解](https://blog.csdn.net/hsany330/article/details/52870804)
+
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
 
