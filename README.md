@@ -122,6 +122,8 @@
 
 23.[7分钟理解JS的节流、防抖及使用场景](https://juejin.im/post/5b8de829f265da43623c4261)
 
+24.[ES6 Promise 和 Async/await的使用](https://juejin.im/post/5a3c68426fb9a0451969c58e)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
