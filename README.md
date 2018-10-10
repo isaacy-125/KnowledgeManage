@@ -124,6 +124,8 @@
 
 24.[ES6 Promise 和 Async/await的使用](https://juejin.im/post/5a3c68426fb9a0451969c58e)
 
+25.[JS正则表达式完整教程（略长）](https://juejin.im/post/5965943ff265da6c30653879)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
