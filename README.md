@@ -126,6 +126,9 @@
 
 25.[JS正则表达式完整教程（略长）](https://juejin.im/post/5965943ff265da6c30653879)
 
+# Performance
+1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
@@ -144,7 +147,7 @@
 
 5.[机器学习 MachineLearning](https://github.com/apachecn/AiLearning)
 
-# 面试
+# Interview
 1.[2018前端面试总结，看完弄懂，工资少说加3K](https://juejin.im/post/5b94d8965188255c5a0cdc02)
 
 2.[9月，水了几个大中厂前端面试的一些总结分享](https://juejin.im/post/5b9267b1e51d450e7579af94)
