@@ -25,6 +25,8 @@
 
 11.[React 组件通信之 React context](https://segmentfault.com/a/1190000012575622)
 
+12.[React 进阶之高阶组件](https://juejin.im/post/595243d96fb9a06bbd6f5ccd)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
