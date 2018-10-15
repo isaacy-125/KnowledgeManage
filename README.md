@@ -134,6 +134,8 @@
 
 25.[JS正则表达式完整教程（略长）](https://juejin.im/post/5965943ff265da6c30653879)
 
+26.[ES6中的代理模式-----Proxy](https://juejin.im/post/5a5227ce6fb9a01c927e85c4)
+
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 
