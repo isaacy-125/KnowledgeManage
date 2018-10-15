@@ -32,6 +32,8 @@
 
 2.[Immutable documents](http://facebook.github.io/immutable-js/docs/#/)
 
+3.[immer.js-Create the next immutable state by mutating the current one](https://github.com/mweststrate/immer)
+
 # MySQL
 1.[如何安装与连接MySQL？](https://zhuanlan.zhihu.com/p/29060970)
 
