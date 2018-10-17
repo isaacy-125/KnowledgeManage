@@ -181,6 +181,9 @@
 
 2.[Nginx-Ubuntu中文](http://wiki.ubuntu.org.cn/Nginx)
 
+# CI/CD
+1.[前端进阶之路-利用Jenkins快速打造前端项目自动化工作流](https://juejin.im/post/5bc000826fb9a05d330adf9d)
+
 # Excellent Front-end Team Website
 1.[转转前端](http://zzfe.org/#/list)
 
