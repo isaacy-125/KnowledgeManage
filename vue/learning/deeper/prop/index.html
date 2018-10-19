@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <my-component data-class="123"></my-component>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script>
+        /*
+        使用驼峰命名的props 在调用的时候要用短横线分割
+        Vue.component('blog-post', {
+            props: ['postTitle'],
+            template: `
+                <h3>{{ postTitle }}</h3>
+            `
+        })
+        <blog-post post-title="hello"></blog-post>
+
+        props除了可以使用数组形式声明
+        props: ['title', 'likes', 'isPublished', 'commentIds', 'author']
+        还可以通过一个对象声明props的名称和类型
+        props: {
+            title: String,
+            likes: Number,
+            isPublished: Boolean,
+            commentIds: Array,
+            author: Object,
+        }
+
+        给props传值可以传一个静态的值
+        <blog-post title="my journey with vue"></blog-post>
+        也可以通过v-bind动态赋值
+        <blog-post v-bind:title="post.title"></blog-post>
+        如果传入一个数字 虽然是静态的 还是需要v-bind
+        <blog-post v-bind:likes="42"></blog-post>
+        布尔也是一样
+        <blog-post v-bind:is-published="false"></blog-post>
+        数组也是一样
+        <blog-post v-bind:comment-ids="[234,266,273]"></blog-post>
+        对象也是一样
+        <blog-post v-bind:author="{name: 'veronica'}"></blog-post>
+
+        如果你调用组件的时候传入了一个没有在组件注册时声明的props
+        该props会加入到组件的根元素上
+        如下再生成的dom中 组件根元素会添加data-class属性
+        如果组件内部有这个属性 会覆盖组件上的属性 但class和style会合并
+        Vue.component('bootstrap-date-input', {
+            template: `
+                <div>bootstrap-date-input</div>
+            `
+        });
+        <bootstrap-date-input data-class="addClass"></bootstrap-date-input>
+
+        如果你不想组件的根元素继承这些props 可以在设置inheritAttrs
+        你也可以结合$attrs属性决定组件根元素是谁
+        Vue.component('my-component', {
+            inheritAttrs: false,
+            template: `
+                <label>
+                    <input
+                        v-bind="$attrs"
+                    />
+                </label>
+            `
+        })
+        <my-component data-class="123"></my-component>
+        */
+        Vue.component('my-component', {
+            inheritAttrs: false,
+            template: `
+                <div>
+                    <p v-bind="$attrs"></p>
+                </div>
+            `
+        })
+        var app = new Vue({
+            el: '#app',
+        })
+    </script>
+</body>
+</html>

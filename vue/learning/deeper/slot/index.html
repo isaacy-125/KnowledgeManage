@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script>
+        /*
+            在调用组件内部吸入字符串 html或者组件
+            会被放入组件template中的<slot></slot>标签内
+            <navigation-lick>
+                your profile
+            </navigation-link>
+            Vue.component('navigation-link', {
+                template: `
+                    <div>
+                        <slot></slot>
+                    </div>
+                `
+            })
+
+            如果需要多个插槽在组件的不同位置
+            相同命名的slot和name会替换对应位置
+            Vue.component('navigation-link', {
+                template: `
+                    <div>
+                        <slot name="header"></slot>
+                        <slot></slot>
+                        <slot name="footer"></slot>
+                    </div>
+                `
+            })
+            <navigation-link>
+                <template slot="header">
+                    123
+                </template>
+            </navigation-link>
+        */
+    </script>
+</body>
+</html>

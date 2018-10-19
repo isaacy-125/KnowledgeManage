@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script>
+        /*
+            动态组件通过v-bind:is绑定的一个变量 通过变量声明组件名动态
+            改变渲染的组件
+            Vue.component('tab-home', {
+                template: `<div>Home component</div>`
+            })
+            Vue.component('tab-posts', {
+                template: `<div>Posts component</div>`
+            })
+            Vue.component('tab-archive', {
+                template: `<div>Archive component</div>`
+            })
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    currentTab: 'tab-home',
+                }
+            })
+            <component v-bind:is="currentTab"></component>
+
+            在切换组件时 组件的状态会被重置
+            用keep-alive组件包住 可以缓存组件实例
+            <keep-alive>
+                <component v-bind:is="currentTabComponent"></component>
+            </keep-alive>
+        */
+    </script>
+</body>
+</html>

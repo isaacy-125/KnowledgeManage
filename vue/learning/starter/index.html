@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- 渲染模板字符串 -->
+        {{ message }}
+        <!-- on指令绑定事件 -->
+        <button v-on:click="reverseMessage">
+            逆转消息
+        </button>
+        <!-- 实现表单和状态的双向绑定 -->
+        <input v-model="message" />
+        <!-- 计算属性 -->
+        {{ reversedMessage }}
+        <div>
+            <!-- 指令绑定元素熟悉感 -->
+            <span v-bind:title="title">
+                鼠标悬停几秒钟查看此处动态绑定的提示信息！
+            </span>
+        </div>
+        <!-- 控制元素显隐指令 -->
+        <p v-if="seen">现在你看到我了</p>
+        <p v-else>你只能看到我了</p>
+        <!-- 渲染列表 -->
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+        <!-- 渲染组件 给定一个props 和key 通过for渲染渲染 -->
+        <ol>
+            <todo-item
+                v-for="item in groceryList"
+                v-bind:todo="item"
+                v-bind:Key="item.id"
+            />
+        </ol>
+        <!-- class渲染指令 如果isActive为true class加上active -->
+        <div v-bind:class="{active: isActive, inactive: isInActive}"></div>
+        <!-- 内联样式绑定 -->
+        <div
+            v-bind:style="{
+                color: activeColor,
+            }"
+        >
+            内联样式绑定
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script>
+        // 定义一个名为todo-item的组件
+        // 定义组件要在实例化vue前面
+        Vue.component('todo-item', {
+            props: ['todo'],
+            template: `
+                <li>
+                    {{ todo.text }}
+                </li>`
+        })
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello world',
+                title: '页面加载于'+ new Date().toLocaleDateString(),
+                seen: true,
+                todos: [{
+                    text: '学习 JavaScript'
+                },{ text: '学习 Vue' },
+                    { text: '整个牛项目' }],
+                groceryList: [
+                    { id: 0, text: '蔬菜' },
+                    { id: 1, text: '奶酪' },
+                    { id: 2, text: '随便其它什么人吃的东西' }],
+                isActive: true,
+                isInActive: true,
+                activeColor: 'red',
+            },
+            // 监听器 用于做复杂的数据变化处理 比如异步
+            watch: {
+                message: function() {
+                    console.log('message is changing');
+                }
+            },
+            methods: {
+                reverseMessage: function() {
+                    // 通过this访问data中的变量
+                    this.message = this.message.split('').reverse().join('');
+                }
+            },
+            // 定义计算属性 如果this.message 改变会动态更新dom绑定的reversedMessage
+            computed: {
+                reversedMessage: function() {
+                    return this.message.split('').reverse().join('');
+                },
+            }
+        });
+    </script>
+</body>
+</html>

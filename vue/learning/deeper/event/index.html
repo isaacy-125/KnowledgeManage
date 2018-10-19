@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script>
+        /*
+            组件的model对象的props会对应调用组件时的v-model
+            当触发model对象的event事件并携带一个值的时候 会改变v-model对应的变量
+            Vue.component('base-checkbox', {
+            model: {
+                prop: 'checked',
+                event: 'change',
+            },
+            props: {
+                checked: Boolean,
+            },
+            template: `
+                <input
+                    type="checkbox"
+                    v-bind:checked="checked"
+                    v-on:change="$emit('change', $event.target.checked)"
+                />
+            `
+        })
+        <base-checkbox v-model="lovingVue"></base-checkbox>
+
+        */
+        
+        var app = new Vue({
+            el: '#app',
+            data: {
+                lovingVue: true,
+            }
+        })
+    </script>
+</body>
+</html>

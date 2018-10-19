@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- <button
+            v-on:click="getA"
+        >
+            get foo from componentA
+        </button> -->
+        <component-a ref="comA">
+            <component-b></component-b>
+        </component-a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script>
+        /*
+            组件可以通过this.$root.dataName来访问根实例上的data数据
+            Vue.component('ComponentA', {
+                methods: {
+                    getFoot: function() {
+                        alert(this.$root.foo);
+                    },
+                },
+                template: `
+                    <button
+                        v-on:click="getFoot"
+                    >
+                        get foo from foot app
+                    </button>
+                `
+            })
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    foo: 1,
+                },
+            })
+
+            可以通过this.$parent.dataName来访问父组件的data数据
+            Vue.component('ComponentA', {
+                methods: {
+                    getFoot: function() {
+                        alert(this.$parent.foo);
+                    }
+                },
+                template: `
+                    <button
+                        v-on:click="getFoot"
+                    >
+                        get foo from parent
+                    </button>
+                `
+            })
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    foo: 1,
+                }
+            })
+
+            在父组件可以通过给子组件一个ref来访问子组件实例
+            Vue.component('ComponentA', {
+                data() {
+                    return {
+                        foo: 1,
+                    }
+                },
+                template: `
+                    <div></div>
+                `
+            })
+            var app = new Vue({
+                el: '#app',
+                methods: {
+                    getA: function() {
+                        alert(this.$refs.comA.foo)
+                    }
+                }
+            })
+
+            通过provide和inject可以解决父组件多次传值给多层嵌套组件
+            嵌套组件可以通过inject拿到父组件provide的方法或者数据
+            Vue.component('ComponentA', {
+                inject: ['getFoo'],
+                template: `
+                    <div>
+                        <button
+                            @click="getFoo"
+                        >
+                            component-a get foo from provide
+                        </button>
+                        <slot></slot>
+                    </div>
+                `
+            });
+            Vue.component('ComponentB', {
+                inject: ['getFoo'],
+                template: `
+                    <button
+                        @click="getFoo"
+                    >
+                        component-b get foo from provide
+                    </button>
+                `
+            })
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    foo: 1,
+                },
+                methods: {
+                    getFoo: function() {
+                        alert(this.foo);
+                    }
+                },
+                provide: function() {
+                    return {
+                        getFoo: this.getFoo,
+                    }
+                }
+            })
+        */
+    </script>
+</body>
+</html>

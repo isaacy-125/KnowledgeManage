@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script>
+        /*
+        如果用
+        Vue.component('my-component-name, {}')
+        短横线分割定义一个组件时调用的时候 也要使用短横线
+        <my-component-name />
+
+        如果使用驼峰命名
+        Vue.component('MyComponentName', {})
+        可以使用驼峰或者短横线使用都是可以的
+        <MyComponentName />
+        <my-component-name />
+
+        此为全局注册组件
+        Vue.component('my-component-name', {})
+        在之后任何新创建的vue实例中都可以调用
+
+        局部注册可以单独声明在某个vue实例中要用到的组件
+        components对象中 属性名就是组件名 属性值就是该组件的选项对象
+        var ComponentA = {}
+        new Vue({
+            el: "#app",
+            components: {
+                'component-a': ComponentA,
+            }
+        })
+        */
+    </script>
+</body>
+</html>
