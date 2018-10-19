@@ -25,10 +25,14 @@
 
 11.[React 组件通信之 React context](https://segmentfault.com/a/1190000012575622)
 
+12.[React 进阶之高阶组件](https://juejin.im/post/595243d96fb9a06bbd6f5ccd)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
 2.[Immutable documents](http://facebook.github.io/immutable-js/docs/#/)
+
+3.[immer.js-Create the next immutable state by mutating the current one](https://github.com/mweststrate/immer)
 
 # MySQL
 1.[如何安装与连接MySQL？](https://zhuanlan.zhihu.com/p/29060970)
@@ -74,6 +78,12 @@
 5.[Canvas-web API接口](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API)
 
 6.[CSS3教程:pointer-events属性值详解](https://blog.csdn.net/hsany330/article/details/52870804)
+
+7.[【基础】EM 还是 REM？这是一个问题！](https://juejin.im/post/5ad98e966fb9a07a9a106787)
+
+8.[CSS 变量教程](http://www.ruanyifeng.com/blog/2017/05/css-variables.html)
+
+9.[BEM命名规范入门及常用CSS class 命名](https://juejin.im/post/5ae6d3b3f265da0b7964a8e7)
 
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
@@ -126,6 +136,11 @@
 
 25.[JS正则表达式完整教程（略长）](https://juejin.im/post/5965943ff265da6c30653879)
 
+26.[ES6中的代理模式-----Proxy](https://juejin.im/post/5a5227ce6fb9a01c927e85c4)
+
+# Performance
+1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
@@ -144,7 +159,7 @@
 
 5.[机器学习 MachineLearning](https://github.com/apachecn/AiLearning)
 
-# 面试
+# Interview
 1.[2018前端面试总结，看完弄懂，工资少说加3K](https://juejin.im/post/5b94d8965188255c5a0cdc02)
 
 2.[9月，水了几个大中厂前端面试的一些总结分享](https://juejin.im/post/5b9267b1e51d450e7579af94)
@@ -161,8 +176,16 @@
 
 8.[面试官:请你实现一个深克隆](https://juejin.im/post/5abb55ee6fb9a028e33b7e0a)
 
+9.[从一道面试题说起—js隐式转换踩坑合集](https://juejin.im/post/5bc5c752f265da0a9a399a62)
+
 # Docker
 1.[Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
 
 2.[Nginx-Ubuntu中文](http://wiki.ubuntu.org.cn/Nginx)
+
+# CI/CD
+1.[前端进阶之路-利用Jenkins快速打造前端项目自动化工作流](https://juejin.im/post/5bc000826fb9a05d330adf9d)
+
+# Excellent Front-end Team Website
+1.[转转前端](http://zzfe.org/#/list)
 
