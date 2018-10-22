@@ -32,6 +32,12 @@ export default {
   components: {
     HelloWorld
   },
+  mounted() {
+    // setTimeout访问this 会指向window 用箭头函数可以去到实例this
+    setTimeout(() => {
+      window.console.log(this);
+    }, 1000)
+  },
   methods: {
     goHome: function() {
       this.$router.push('/home');

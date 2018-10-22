@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log('here');
+        let ws = new WebSocket('ws://localhost:9999');
+        // 建立连接时触发
+        ws.onopen = function() {
+            console.log('send');
+            // 这里是像后端发送数据
+            ws.send('已建立链接');
+        }
+        // 服务端给客户端发来消息时触发
+        ws.onmessage = function(res) {
+            console.log(res);
+        }
+    </script>
+</body>
+</html>
