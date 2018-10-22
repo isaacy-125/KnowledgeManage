@@ -140,6 +140,8 @@
 
 26.[ES6中的代理模式-----Proxy](https://juejin.im/post/5a5227ce6fb9a01c927e85c4)
 
+27.[scrollIntoViewIfNeeded 与 scrollIntoView](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/3)
+
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 
