@@ -193,3 +193,6 @@
 # Excellent Front-end Team Website
 1.[转转前端](http://zzfe.org/#/list)
 
+# Have Fun
+1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
+
