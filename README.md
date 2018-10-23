@@ -140,6 +140,10 @@
 
 26.[ES6中的代理模式-----Proxy](https://juejin.im/post/5a5227ce6fb9a01c927e85c4)
 
+27.[scrollIntoViewIfNeeded 与 scrollIntoView](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/3)
+
+28.[利用 URLSearchParams 对象获取URL之中的查询字符串，即问号之后的部分](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/31)
+
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 
@@ -190,4 +194,7 @@
 
 # Excellent Front-end Team Website
 1.[转转前端](http://zzfe.org/#/list)
+
+# Have Fun
+1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
 
