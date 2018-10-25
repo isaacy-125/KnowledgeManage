@@ -198,3 +198,5 @@
 # Have Fun
 1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
 
+2.[Page Visibility API 教程](http://www.ruanyifeng.com/blog/2018/10/page_visibility_api.html)
+
