@@ -23,6 +23,26 @@ const Index = (props) => (
                 </li>
             ))}
         </ul>
+        {/* 此种写法只会应用在单个组件 并且不会应用在组件内部的子组件 */}
+        <style jsx>{`
+            h1, a {
+                font-family: 'Arial';
+            }
+            ul {
+                padding: 0;
+            }
+            li {
+                list-style: none;
+                margin: 5px 0;
+            }
+            a {
+                text-decoration: none;
+                color: blue;
+            }
+            a:hover {
+                opacity: 0.6;
+            }
+        `}</style>
     </Layout>
 )
 
