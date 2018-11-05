@@ -27,6 +27,8 @@
 
 12.[React 进阶之高阶组件](https://juejin.im/post/595243d96fb9a06bbd6f5ccd)
 
+13.[10分钟了解react引入的hooks](https://juejin.im/post/5bdad9ca518825060a13512c)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
