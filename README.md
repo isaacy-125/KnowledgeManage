@@ -27,6 +27,8 @@
 
 12.[React 进阶之高阶组件](https://juejin.im/post/595243d96fb9a06bbd6f5ccd)
 
+13.[10分钟了解react引入的hooks](https://juejin.im/post/5bdad9ca518825060a13512c)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -110,39 +112,37 @@
 
 11.[JavaScript深入系列15篇正式完结！](https://juejin.im/post/59278e312f301e006c2e1510)
 
-12.[webpack 中文文档](https://webpack.docschina.org/concepts/)
+12.[Styled-Components](https://segmentfault.com/a/1190000014682665)
 
-13.[Styled-Components](https://segmentfault.com/a/1190000014682665)
+13.[前端开发者指南 2018](https://github.com/xitu/front-end-handbook-2018)
 
-14.[前端开发者指南 2018](https://github.com/xitu/front-end-handbook-2018)
+14.[Web Worker 使用教程](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)
 
-15.[Web Worker 使用教程](http://www.ruanyifeng.com/blog/2018/07/web-worker.html)
+15.[Front-end-notes](https://hongqingcao.github.io/Front-end-notes/#/home)
 
-16.[Front-end-notes](https://hongqingcao.github.io/Front-end-notes/#/home)
+16.[浏览器数据库 IndexedDB 入门教程](http://www.ruanyifeng.com/blog/2018/07/indexeddb.html)
 
-17.[浏览器数据库 IndexedDB 入门教程](http://www.ruanyifeng.com/blog/2018/07/indexeddb.html)
+17.[Javascript 异步加载详解](https://www.cnblogs.com/hq233/p/7102549.html)
 
-18.[Javascript 异步加载详解](https://www.cnblogs.com/hq233/p/7102549.html)
+18.[JS的分号可以省掉吗?](https://blog.fundebug.com/2018/09/18/js-semicolon-bug/)
 
-19.[JS的分号可以省掉吗?](https://blog.fundebug.com/2018/09/18/js-semicolon-bug/)
+19.[不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/post/5abdd6f6f265da23793c4458)
 
-20.[不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/post/5abdd6f6f265da23793c4458)
+20.[JavaScript 数据类型检测终极解决方案](https://juejin.im/post/5ba221fb6fb9a05d3c7ff01c)
 
-21.[JavaScript 数据类型检测终极解决方案](https://juejin.im/post/5ba221fb6fb9a05d3c7ff01c)
+21.[如何优雅地链式取值](https://juejin.im/post/5ba08483e51d450e99430a7f)
 
-22.[如何优雅地链式取值](https://juejin.im/post/5ba08483e51d450e99430a7f)
+22.[7分钟理解JS的节流、防抖及使用场景](https://juejin.im/post/5b8de829f265da43623c4261)
 
-23.[7分钟理解JS的节流、防抖及使用场景](https://juejin.im/post/5b8de829f265da43623c4261)
+23.[ES6 Promise 和 Async/await的使用](https://juejin.im/post/5a3c68426fb9a0451969c58e)
 
-24.[ES6 Promise 和 Async/await的使用](https://juejin.im/post/5a3c68426fb9a0451969c58e)
+24.[JS正则表达式完整教程（略长）](https://juejin.im/post/5965943ff265da6c30653879)
 
-25.[JS正则表达式完整教程（略长）](https://juejin.im/post/5965943ff265da6c30653879)
+25.[ES6中的代理模式-----Proxy](https://juejin.im/post/5a5227ce6fb9a01c927e85c4)
 
-26.[ES6中的代理模式-----Proxy](https://juejin.im/post/5a5227ce6fb9a01c927e85c4)
+26.[scrollIntoViewIfNeeded 与 scrollIntoView](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/3)
 
-27.[scrollIntoViewIfNeeded 与 scrollIntoView](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/3)
-
-28.[利用 URLSearchParams 对象获取URL之中的查询字符串，即问号之后的部分](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/31)
+27.[利用 URLSearchParams 对象获取URL之中的查询字符串，即问号之后的部分](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/31)
 
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
@@ -184,6 +184,11 @@
 
 9.[从一道面试题说起—js隐式转换踩坑合集](https://juejin.im/post/5bc5c752f265da0a9a399a62)
 
+# Webpack
+1.[webpack4.x最详细入门讲解](https://juejin.im/post/5bd66efcf265da0a8a6af2d2)
+
+2.[webpack 中文文档](https://webpack.docschina.org/concepts/)
+
 # Docker
 1.[Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
 
@@ -194,6 +199,11 @@
 
 # Excellent Front-end Team Website
 1.[转转前端](http://zzfe.org/#/list)
+
+2.[技术胖](http://jspang.com/)
+
+# Excellent Github Project
+1.[33-js-concepts-每个 JavaScript 工程师都应懂的33个概念](https://github.com/stephentian/33-js-concepts?utm_source=gold_browser_extension#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88)
 
 # Have Fun
 1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
