@@ -1,0 +1,19 @@
+body {
+    background: url(../images/1541657455809.jpg);
+}
+
+#root div {
+    width: 200px;
+    margin-top: 50px;
+    transform: rotate(45deg);
+}
+
+.a {
+    color: black;
+}
+
+.b {
+    width: 50px;
+    height: 50px;
+    background: yellow;
+}
