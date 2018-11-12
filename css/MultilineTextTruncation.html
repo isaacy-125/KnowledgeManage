@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 单行文本截断 */
+        /* div {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        } */
+
+        /* 多行文本截断 在firebox ie兼容性不好*/
+        /* div {
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        } */
+
+        /* float实现的 多行文本截断 */
+        .wrap {
+            height: 40px;
+            line-height: 20px;
+            overflow: hidden;
+        }
+        .wrap .text {
+            float: right;
+            margin-left: -5px;
+            width: 100%;
+            word-break: break-all;
+        }
+        .wrap::before {
+            float: left;
+            width: 5px;
+            content: '';
+            height: 40px;
+        }
+        .wrap::after {
+            float: right;
+            content: "...";
+            height: 20px;
+            line-height: 20px;
+            width: 3em;
+            margin-left: -3em;
+            position: relative;
+            left: 100%;
+            top: -20px;
+            padding-right: 5px;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- css 多行文字截断 -->
+    <!-- <div>
+        this is test this is test this is test this is test this is test this is testthis is testthis is testthis is test this is test this is test this is test this is test
+    </div> -->
+    <div class="wrap">
+        <div class="text">
+            this is test this is test this is test this is test this is test this is testthis is testthis is testthis is test this is test this is test this is test this is test
+        </div>
+    </div>
+</body>
+</html>
