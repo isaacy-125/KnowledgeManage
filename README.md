@@ -29,6 +29,8 @@
 
 13.[10分钟了解react引入的hooks](https://juejin.im/post/5bdad9ca518825060a13512c)
 
+14.[React v16.6 新特性介绍](https://blog.csdn.net/sinat_17775997/article/details/83574691)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
