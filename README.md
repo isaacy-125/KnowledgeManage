@@ -97,6 +97,8 @@
 
 12.[CSS 来实现多行文字截断](https://juejin.im/post/5be2dd8fe51d451bb447e0a5)
 
+13.[ You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/introduce?v=1)
+
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
 
@@ -206,7 +208,7 @@
 
 2.[Flutter免费视频第二季-常用组件讲解](http://jspang.com/post/flutter2.html)
 
-2.[Dart2中文文档](https://www.kancloud.cn/marswill/dark2_document/709087)
+3.[Dart2中文文档](https://www.kancloud.cn/marswill/dark2_document/709087)
 
 # Docker
 1.[Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
