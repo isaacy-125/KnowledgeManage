@@ -29,6 +29,8 @@
 
 13.[10分钟了解react引入的hooks](https://juejin.im/post/5bdad9ca518825060a13512c)
 
+14.[React v16.6 新特性介绍](https://blog.csdn.net/sinat_17775997/article/details/83574691)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -95,6 +97,8 @@
 
 12.[CSS 来实现多行文字截断](https://juejin.im/post/5be2dd8fe51d451bb447e0a5)
 
+13.[ You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/introduce?v=1)
+
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
 
@@ -150,8 +154,12 @@
 
 27.[利用 URLSearchParams 对象获取URL之中的查询字符串，即问号之后的部分](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/31)
 
+28.[【译】理解JavaScript中的柯里化](https://juejin.im/post/5be5b5a65188250fa835897e)
+
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
+
+2.[用 preload 预加载页面资源](https://juejin.im/post/5a7fb09bf265da4e8e785c38)
 
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
@@ -197,6 +205,10 @@
 
 # Flutter
 1.[Flutter免费视频教程第一季：开发环境搭建](https://juejin.im/post/5be3d54cf265da611d6624d3)
+
+2.[Flutter免费视频第二季-常用组件讲解](http://jspang.com/post/flutter2.html)
+
+3.[Dart2中文文档](https://www.kancloud.cn/marswill/dark2_document/709087)
 
 # Docker
 1.[Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
