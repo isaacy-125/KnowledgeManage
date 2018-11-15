@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .main {
+            width: 100%;
+            padding: 60px 80px 80px;
+            /* background: #b4a078; */
+            background-image: url('../../../Desktop/1540882255123.jpg');
+        }
+        .content {
+            padding: 12px;
+            margin: 20px auto;
+            background: white;
+            /* border: 10px solid hsla(0, 0%, 100%, .5); */
+            border: 10px solid hsla(0, 0%, 100%, .5);
+        }
+        label {
+            color: #f4f0ea;
+        }
+        /* ~为input和div在同一父元素下 input后面的div */
+        input[id="pb"]:checked ~ div.content {
+            background-clip: padding-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- background-clip用于裁截背景 有三个值 -->
+    <!-- border-box(默认值)  -->
+    <!-- padding-box -->
+    <!-- content-box -->
+    <!-- 用于判断背景延升到的区域 可以用于制作透明边框 -->
+    <div class="main">
+        <input id="pb" type="checkbox" checked />
+        <label for="pb">padding-box(默认)</label>
+        <div class="content">A paragraph of filler text. La la la de dah de dah de dah de la.</div>
+    </div>
+</body>
+</html>
