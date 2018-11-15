@@ -152,6 +152,8 @@
 
 27.[利用 URLSearchParams 对象获取URL之中的查询字符串，即问号之后的部分](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/31)
 
+28.[【译】理解JavaScript中的柯里化](https://juejin.im/post/5be5b5a65188250fa835897e)
+
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 
