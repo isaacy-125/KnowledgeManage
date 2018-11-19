@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .demo1 {
+            width: 229px;
+            height: 139px;
+            /* 这里声明了background的所有属性 */
+            background: #b4a078 url('./image/1540882255123.jpg') no-repeat bottom right / 100px 50px;
+            /* background-position定义了背景图的位置 */
+            background-position: right 29px bottom 28px;
+        }
+
+        /* 这只是一个最外层的div包裹 */
+        .progress-outer {
+            margin-top: 20px;
+            width: 60%;
+            height: 12px;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        /* 这层相当于总的进度条长度div */
+        .progress-enter {
+            height: inherit;
+            background: rgba(180, 160, 120, .2);
+        }
+        /* 这里是进度条div */
+        .progress-bg {
+            width: 60%; 
+            height: inherit;
+            border-radius: 6px; 
+            background: repeating-linear-gradient(-45deg, #D9CFBB  25%, #C3B393 0, #C3B393 50%,
+                            #D9CFBB 0, #D9CFBB 75%, #C3B393 0);
+            background-size: 16px 16px;
+            animation: panoramic 20s linear infinite;
+        }
+        @keyframes panoramic{
+            to {
+            background-position: 200% 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="demo1"></div>
+
+    <div class="progress-outer">
+        <div class="progress-enter">
+            <div class="progress-bg"></div>
+        </div>
+    </div>
+</body>
+</html>

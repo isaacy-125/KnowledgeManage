@@ -21,10 +21,23 @@
             /* 如果偏移量和模糊度都为0 相当于多了一个border边框 */
             box-shadow: 0px 0px 0px 10px #888888; 
         }
+        .demo3 {
+            margin-top: 20px;
+            width: 209px;
+            background: #f4f0ea;
+            border-radius: 8px;
+            /* border会与border-radius重合 */
+            /* outline是border外的线 不会与border-radius重合 */
+            outline: 6px solid #b4a078;
+            /* 然后用box-shadow来填充outline和border-radius之间的间隔 */
+            /* 由此来实现边框内圆角 */
+            box-shadow: 0 0 0 5px #b4a078;
+        }
     </style>
 </head>
 <body>
     <div class="demo1"></div>
     <div class="demo2"></div>
+    <div class="demo3">A paragraph of filler text. La la la de dah de dah de dah de la.</div>
 </body>
 </html>
