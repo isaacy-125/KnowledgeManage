@@ -156,6 +156,9 @@
 
 28.[【译】理解JavaScript中的柯里化](https://juejin.im/post/5be5b5a65188250fa835897e)
 
+# Typescript
+1.[TypeScript中文网](https://www.tslang.cn/index.html)
+
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 
