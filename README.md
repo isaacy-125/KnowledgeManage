@@ -31,6 +31,8 @@
 
 14.[React v16.6 新特性介绍](https://blog.csdn.net/sinat_17775997/article/details/83574691)
 
+15.[react-loadable: 用于加载具有动态导入的组件的更高阶组件](https://github.com/jamiebuilds/react-loadable)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
