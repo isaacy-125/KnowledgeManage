@@ -31,6 +31,8 @@
 
 14.[React v16.6 新特性介绍](https://blog.csdn.net/sinat_17775997/article/details/83574691)
 
+15.[react-loadable: 用于加载具有动态导入的组件的更高阶组件](https://github.com/jamiebuilds/react-loadable)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -72,6 +74,7 @@
 
 # HTML
 1.[什么是HTML语义化标签？常见HTML语义化标签大全](https://blog.csdn.net/eeeecw/article/details/80591511)
+
 # CSS
 1.[理解CSS中BFC](https://www.w3cplus.com/css/understanding-block-formatting-contexts-in-css.html)
 
@@ -155,6 +158,8 @@
 27.[利用 URLSearchParams 对象获取URL之中的查询字符串，即问号之后的部分](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/31)
 
 28.[【译】理解JavaScript中的柯里化](https://juejin.im/post/5be5b5a65188250fa835897e)
+
+29.[npm（classnames） 更灵活使用类名](https://blog.csdn.net/cjg214/article/details/81125154)
 
 # Typescript
 1.[TypeScript中文网](https://www.tslang.cn/index.html)
