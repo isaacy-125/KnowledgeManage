@@ -102,6 +102,8 @@
 
 13.[ You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/introduce?v=1)
 
+14.[精读《使用 CSS 属性选择器》](https://juejin.im/post/5bfb411a6fb9a049f153df56)
+
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
 
