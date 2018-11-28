@@ -102,6 +102,8 @@
 
 13.[ You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/introduce?v=1)
 
+14.[你必须记住的30个CSS选择器](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
 
