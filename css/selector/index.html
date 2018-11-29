@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*link伪类定位尚未点击的*/
+        a:link {
+            color: red;
+        }
+        /*visited定位已点击的*/
+        a:visited {
+            color: purple;
+        }
+        /*相邻兄弟元素 定位ul元素后紧接的第一个p元素 且ul p在同一父元素下*/
+        ul + p {
+            color: blue;
+        }
+        /*直接子元素选择器 只会选择div下面的第一层是p元素的*/
+        /*与div p不同的是 这个选择器的p只要是div的子元素 无论多少层级都会匹配到*/
+        div > p {
+            color: #008800;
+        }
+        /*与+类似 但+号只匹配与ul同级紧接的第一个p 而~会匹配所有同级的p*/
+        .test ul~p {
+            color: green;
+        }
+        /*匹配具有title属性的a元素*/
+        a[title] {
+            color: #ff8763;
+        }
+        /*匹配属性href等于该值的a元素*/
+        a[href="http://net.tutsplus.com"] {
+            color: #5cb4ff;
+        }
+        /*匹配href值中含有bai字段的a元素*/
+        a[href*="bai"] {
+            color: #97ff53;
+        }
+        /*匹配href值以www开头的a元素*/
+        a[href^="www"] {
+            color: #ff8df8;
+        }
+        /*匹配href值以.jpg结尾的a元素*/
+        a[href$=".jpg"] {
+            color: #d0c4ff;
+        }
+        /*checked 匹配单选框选中状态*/
+        input[type=radio]:checked + label {
+            color: red;
+        }
+        /*鼠标悬停效果*/
+        #hoverId:hover {
+            color: #b29cff;
+        }
+        /*ul 下面的li元素出来class为notthis的*/
+        #ulid li:not(.notthis) {
+            color: pink;
+        }
+        /*匹配元素的第一个字母*/
+        #firstLetterP::first-letter {
+            font-size: 20px;
+        }
+        /*匹配元素的第一行*/
+        #firstLineP::first-line {
+            font-size: 20px;
+        }
+        /*nth-child 是选择li的父级元素下面的第三个 如果是li则匹配*/
+        #nthChildUl li:nth-child(3) {
+            color: blue;
+        }
+        /*从最后一个元素开始计数 相当于匹配最后一个*/
+        #nthLastChildUl li:nth-last-child(1) {
+            color: blue;
+        }
+        /*从父元素开始找到所有的li 并定位第二个*/
+        /*注意nth-of-type与nth-child的区别*/
+        #nthOfTypeUl li:nth-of-type(2) {
+            color: red;
+        }
+        /*寻找父元素下面的第一个元素 如果是p 则匹配*/
+        #firstChildUl p:first-child {
+            color: red;
+        }
+        /*寻找父元素下面的最后一个元素 如果是li 则匹配*/
+        #lastChildUl li:last-child {
+            color: red;
+        }
+        /*匹配div下只有唯一的子元素 并且为p*/
+        div p:only-child {
+            color: red;
+        }
+        /*匹配div下的子元素p只有一个 注意与上面的区别*/
+        div p:only-of-type {
+            color: red;
+        }
+        /*匹配abc下的第一个元素是span的*/
+        .abc span:first-of-type {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">link</a>
+    <ul>ul element</ul>
+    <p>p element</p>
+    <div>
+        <p>i will change my color</p>
+    </div>
+    <div>
+        <ul>
+            <p>i will not change my color</p>
+        </ul>
+    </div>
+    <div class="test">
+        <ul>ul elemnt2</ul>
+        <p>p element2</p>
+        <p>p element3</p>
+    </div>
+    <a href="#" title="titlea">a with title</a>
+    <a href="http://net.tutsplus.com">a with specific href</a>
+    <a href="baidu.com">a with part of href</a>
+    <a href="www.douyu.com">a href start with www</a>
+    <a href="xxx.jpg">a href end with jpg</a>
+    <input name="rad" type="radio">
+    <label for="rad">radio button</label>
+    <a href="#" id="hoverId">a with id</a>
+    <ul id="ulid">
+        <li>li 1</li>
+        <li>li 2</li>
+        <li class="notthis">li 3</li>
+    </ul>
+    <p id="firstLetterP">Hello world</p>
+    <p id="firstLineP">Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello world</p>
+    <ul id="nthChildUl">
+        <span>123</span>
+        <li>li 1</li>
+        <li>li 2</li>
+        <li>li 3</li>
+    </ul>
+    <ul id="nthLastChildUl">
+        <li>li 1</li>
+        <li>li 2</li>
+        <li>li 3</li>
+    </ul>
+    <ul id="nthOfTypeUl">
+        <p>1</p>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <ul id="firstChildUl">
+        <p>1</p>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <ul id="lastChildUl">
+        <p>1</p>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <div><p> My paragraph here. </p></div>
+
+    <div>
+        <p> Two paragraphs total. </p>
+        <p> Two paragraphs total. </p>
+    </div>
+
+    <div>
+        <p> My paragraph here. </p>
+        <ul>
+            <li> List Item </li>
+            <li> List Item </li>
+        </ul>
+    </div>
+
+    <div>
+        <p> Two paragraphs total. </p>
+        <p> Two paragraphs total. </p>
+        <ul>
+            <li> List Item </li>
+        </ul>
+    </div>
+    <div class="abc">
+        <p>p</p>
+        <span>span</span>
+    </div>
+</body>
+</html>
