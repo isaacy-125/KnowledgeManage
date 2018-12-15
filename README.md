@@ -106,6 +106,8 @@
 
 14.[你必须记住的30个CSS选择器](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
+15.[大侠，请留步，要不过来了解下CSS Scroll Snap？](http://img1.imgtn.bdimg.com/it/u=582018040,1213552119&fm=26&gp=0.jpg)
+
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
 
