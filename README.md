@@ -247,6 +247,8 @@
 # Architect
 1.[用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
 
+2.[使用 ESlint、lint-staged 半自动提升项目代码质量](https://www.jianshu.com/p/cdd749c624d9)
+
 # Have Fun
 1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
 
