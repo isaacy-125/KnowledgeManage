@@ -170,6 +170,9 @@
 # Typescript
 1.[TypeScript中文网](https://www.tslang.cn/index.html)
 
+# GraphQL
+1.[GraphQL--一种用于 API 的查询语言](http://graphql.cn/)
+
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 
