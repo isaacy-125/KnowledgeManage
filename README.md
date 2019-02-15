@@ -75,6 +75,8 @@
 1.[Git挽救丢失的代码](https://my.oschina.net/shipley/blog/124567)
 
 2.[git bisect 命令教程](http://www.ruanyifeng.com/blog/2018/12/git-bisect.html)
+
+3.[git rebase 还是 merge的使用场景最通俗的解释](https://www.jianshu.com/p/4079284dd970)
 # Promise
 1.[Promise学习](http://liweijieok.github.io/2018/03/21/%E5%89%8D%E7%AB%AF/promise_learn/)
 
