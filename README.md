@@ -39,6 +39,8 @@
 
 18.[How to get promises to work in IE10 with react](https://stackoverflow.com/questions/40281727/how-to-get-promises-to-work-in-ie10-with-react)
 
+19.[why-did-you-update](https://github.com/maicki/why-did-you-update)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
