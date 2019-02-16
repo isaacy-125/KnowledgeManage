@@ -35,6 +35,12 @@
 
 16.[react-router-dom实现全局路由登陆拦截](https://www.cnblogs.com/kdcg/p/9309600.html)
 
+17.[你听过 React Fragments吗？?](https://segmentfault.com/a/1190000013220508)
+
+18.[How to get promises to work in IE10 with react](https://stackoverflow.com/questions/40281727/how-to-get-promises-to-work-in-ie10-with-react)
+
+19.[why-did-you-update](https://github.com/maicki/why-did-you-update)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -69,6 +75,10 @@
 
 # Git
 1.[Git挽救丢失的代码](https://my.oschina.net/shipley/blog/124567)
+
+2.[git bisect 命令教程](http://www.ruanyifeng.com/blog/2018/12/git-bisect.html)
+
+3.[git rebase 还是 merge的使用场景最通俗的解释](https://www.jianshu.com/p/4079284dd970)
 # Promise
 1.[Promise学习](http://liweijieok.github.io/2018/03/21/%E5%89%8D%E7%AB%AF/promise_learn/)
 
@@ -170,10 +180,15 @@
 # Typescript
 1.[TypeScript中文网](https://www.tslang.cn/index.html)
 
+# GraphQL
+1.[GraphQL--一种用于 API 的查询语言](http://graphql.cn/)
+
 # Performance
 1.[图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 
 2.[用 preload 预加载页面资源](https://juejin.im/post/5a7fb09bf265da4e8e785c38)
+
+3.[前端缓存最佳实践](https://juejin.im/post/5c136bd16fb9a049d37efc47)
 
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
@@ -246,6 +261,10 @@
 
 # Architect
 1.[用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
+
+2.[使用 ESlint、lint-staged 半自动提升项目代码质量](https://www.jianshu.com/p/cdd749c624d9)
+
+3.[Alibaba Fusion Design](https://fusion.design/)
 
 # Have Fun
 1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
