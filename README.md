@@ -254,6 +254,8 @@
 
 3.[美团技术团队](https://tech.meituan.com/)
 
+4.[前端早报-每日更新](https://wubaiqing.github.io/zaobao/)
+
 # Excellent Github Project
 1.[33-js-concepts-每个 JavaScript 工程师都应懂的33个概念](https://github.com/stephentian/33-js-concepts?utm_source=gold_browser_extension#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88)
 
