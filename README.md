@@ -55,12 +55,15 @@
 
 # Axios
 1.[axios全攻略](https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/#more)
+
 # Node
 1.[使用Visual Studio Code对Node.js进行断点调试](https://cnodejs.org/topic/58f376fec749f63d48fe9548)
 
 2.[node进阶——之事无巨细手写koa源码](https://juejin.im/post/5ba48fc4e51d450e704277fa)
 
 3.[WebSocket是时候展现你优秀的一面了](https://juejin.im/post/5bc7f6b96fb9a05d3447eef8)
+
+4.[Node.js中package.json中库的版本号详解(^和~区别)](https://blog.csdn.net/njweiyukun/article/details/70309066)
 
 # React-Native
 1.[React Native——react-navigation的使用](https://juejin.im/post/59716e0ef265da6c2211c86e)
