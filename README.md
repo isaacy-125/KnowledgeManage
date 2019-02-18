@@ -195,6 +195,8 @@
 
 3.[前端缓存最佳实践](https://juejin.im/post/5c136bd16fb9a049d37efc47)
 
+4.[使用React DevTools Profiler诊断React App性能问题](https://www.netlify.com/blog/2018/08/29/using-the-react-devtools-profiler-to-diagnose-react-app-performance-issues/)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
