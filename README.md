@@ -41,6 +41,8 @@
 
 19.[why-did-you-update](https://github.com/maicki/why-did-you-update)
 
+20.[React V16 错误处理(componentDidCatch 示例)](https://segmentfault.com/a/1190000011379425?utm_source=tag-newest)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
