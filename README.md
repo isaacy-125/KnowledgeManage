@@ -41,6 +41,8 @@
 
 19.[why-did-you-update](https://github.com/maicki/why-did-you-update)
 
+20.[React V16 错误处理(componentDidCatch 示例)](https://segmentfault.com/a/1190000011379425?utm_source=tag-newest)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -55,12 +57,15 @@
 
 # Axios
 1.[axios全攻略](https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/#more)
+
 # Node
 1.[使用Visual Studio Code对Node.js进行断点调试](https://cnodejs.org/topic/58f376fec749f63d48fe9548)
 
 2.[node进阶——之事无巨细手写koa源码](https://juejin.im/post/5ba48fc4e51d450e704277fa)
 
 3.[WebSocket是时候展现你优秀的一面了](https://juejin.im/post/5bc7f6b96fb9a05d3447eef8)
+
+4.[Node.js中package.json中库的版本号详解(^和~区别)](https://blog.csdn.net/njweiyukun/article/details/70309066)
 
 # React-Native
 1.[React Native——react-navigation的使用](https://juejin.im/post/59716e0ef265da6c2211c86e)
@@ -79,6 +84,9 @@
 2.[git bisect 命令教程](http://www.ruanyifeng.com/blog/2018/12/git-bisect.html)
 
 3.[git rebase 还是 merge的使用场景最通俗的解释](https://www.jianshu.com/p/4079284dd970)
+
+4.[Git恢复之前版本的两种方法reset、revert](https://blog.csdn.net/yxlshk/article/details/79944535)
+
 # Promise
 1.[Promise学习](http://liweijieok.github.io/2018/03/21/%E5%89%8D%E7%AB%AF/promise_learn/)
 
@@ -117,6 +125,8 @@
 14.[你必须记住的30个CSS选择器](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 15.[大侠，请留步，要不过来了解下CSS Scroll Snap？](http://img1.imgtn.bdimg.com/it/u=582018040,1213552119&fm=26&gp=0.jpg)
+
+16.[Tailwind 是一个实用工具集 CSS 框架](https://www.tailwindcss.cn/docs/what-is-tailwind)
 
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
@@ -190,6 +200,8 @@
 
 3.[前端缓存最佳实践](https://juejin.im/post/5c136bd16fb9a049d37efc47)
 
+4.[使用React DevTools Profiler诊断React App性能问题](https://www.netlify.com/blog/2018/08/29/using-the-react-devtools-profiler-to-diagnose-react-app-performance-issues/)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
@@ -254,6 +266,8 @@
 
 3.[美团技术团队](https://tech.meituan.com/)
 
+4.[前端早报-每日更新](https://wubaiqing.github.io/zaobao/)
+
 # Excellent Github Project
 1.[33-js-concepts-每个 JavaScript 工程师都应懂的33个概念](https://github.com/stephentian/33-js-concepts?utm_source=gold_browser_extension#1-%E8%B0%83%E7%94%A8%E5%A0%86%E6%A0%88)
 
@@ -265,6 +279,9 @@
 2.[使用 ESlint、lint-staged 半自动提升项目代码质量](https://www.jianshu.com/p/cdd749c624d9)
 
 3.[Alibaba Fusion Design](https://fusion.design/)
+
+# Tools
+1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
 
 # Have Fun
 1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
