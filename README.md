@@ -43,6 +43,8 @@
 
 20.[React V16 错误处理(componentDidCatch 示例)](https://segmentfault.com/a/1190000011379425?utm_source=tag-newest)
 
+21.[react-router-cache-route](https://github.com/CJY0208/react-router-cache-route)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
