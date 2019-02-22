@@ -97,6 +97,8 @@
 # HTML
 1.[什么是HTML语义化标签？常见HTML语义化标签大全](https://blog.csdn.net/eeeecw/article/details/80591511)
 
+2.[H5 notification浏览器桌面通知](https://juejin.im/post/5c6df433f265da2de80f5eda)
+
 # CSS
 1.[理解CSS中BFC](https://www.w3cplus.com/css/understanding-block-formatting-contexts-in-css.html)
 
