@@ -277,6 +277,8 @@
 
 2.[react-bits](https://github.com/hateonion/react-bits-CN)
 
+3.[前端精读周刊](https://github.com/dt-fe/weekly)
+
 # Architect
 1.[用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
 
