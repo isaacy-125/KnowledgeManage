@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="import" href="./index2.html">
+    <title>Document</title>
+</head>
+<body>
+<!--自定义元素-->
+    <!--<button-hello></button-hello>-->
+    <!--<script>-->
+        <!--window.onload = function() {-->
+            <!--document.registerElement('button-hello', {-->
+                <!--prototype: Object.create(HTMLButtonElement.prototype, {-->
+                    <!--createdCallback: {-->
+                        <!--value: function createdCallback() {-->
+                            <!--this.innerHTML = '<button>hello world</button>'-->
+                            <!--this.addEventListener('click', () => {-->
+                                <!--alert('hello world')-->
+                            <!--})-->
+                        <!--}-->
+                    <!--}-->
+                <!--})-->
+            <!--})-->
+        <!--}-->
+    <!--</script>-->
+<!--扩展原有元素-->
+<!--    <button is="button-hello">hello world</button>
+    <script>
+        document.registerElement('button-hello', {
+            prototype: Object.create(HTMLButtonElement.prototype, {
+                createdCallback: {
+                    value: function createdCallback() {
+                        this.addEventListener('click', () => {
+                            alert('hello world')
+                        })
+                    }
+                }
+            }),
+            extends: 'button'
+        })
+    </script>-->
+<!--通过头部rel引入index2.html 渲染-->
+<script>
+    const link = document.querySelector('link[rel=import]')
+    const header = link.import;
+    console.log(header);
+    const button = header.querySelector('button');
+    console.log(button);
+    document.getElementsByTagName('body')[0].appendChild(button);
+</script>
+</body>
+</html>

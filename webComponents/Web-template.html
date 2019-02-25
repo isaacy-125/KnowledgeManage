@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--使用template元素 动态渲染内部元素-->
+    <template id="template1">
+        <div>
+            123
+        </div>
+    </template>
+    <script>
+        <!--content获取template内部元素-->
+        const fragment = document.getElementById('template1').content.cloneNode(true);
+        document.body.appendChild(fragment);
+    </script>
+</body>
+</html>

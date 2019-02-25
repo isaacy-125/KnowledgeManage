@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--创建shadowDom-->
+    <!--<div id="id"></div>-->
+    <!--<script>-->
+        <!--const div = document.getElementById('id');-->
+        <!--const shadowRoot = div.createShadowRoot();-->
+        <!--const span = document.createElement('span');-->
+        <!--span.textContent = 'hello world';-->
+        <!--shadowRoot.appendChild(span);-->
+    <!--</script>-->
+<!--使用slot-->
+    <input-toggle>
+        <span slot="test1">test1</span>
+        <span slot="test2">test2</span>
+    </input-toggle>
+    <script>
+        window.onload = function () {
+            class InputToggleElement extends HTMLElement {
+                constructor() {
+                    super();
+                    var shadow = this.attachShadow({mode: 'open'});
+                    var t = document.createElement('template');
+                    t.innerHTML = `
+                        <h3>Hello,<slot name='test1'/></h3>
+                    `;
+                    shadow.appendChild(t.content.cloneNode(true));
+                }
+            }
+            customElements.define('input-toggle', InputToggleElement)
+        }
+    </script>
+</body>
+</html>
