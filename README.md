@@ -191,6 +191,9 @@
 
 29.[npm（classnames） 更灵活使用类名](https://blog.csdn.net/cjg214/article/details/81125154)
 
+# Image
+1.[你知道前端对图片的处理方式吗？](https://juejin.im/post/5c6276956fb9a04a06055925)
+
 # Typescript
 1.[TypeScript中文网](https://www.tslang.cn/index.html)
 
