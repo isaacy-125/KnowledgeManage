@@ -4,9 +4,10 @@
 引入下方的HOC方法 
 keyString为同一类型路由的key值
 cmp为将要渲染的组件
+cacheSearch 为是否要根据不同的search url清理缓存
 在autoRouter 外部定义一个组件为
 import component from '..';
-const WrapperComponent = createRouterWrapper(key, component);
+const WrapperComponent = createRouterWrapper(key, component, cacheSearch);
 
 class {
     return (
@@ -35,7 +36,7 @@ import { Tabs } from 'antd';
 import IndexStore from 'Stores/IndexStore';
 
 const { TabPane } = Tabs;
-export default function createRouteWrapper(keyString, cmp) {
+export default function createRouteWrapper(keyString, cmp, cacheSearch) {
     @observer
     class RouterWrapper extends Component {
         render() {
@@ -44,7 +45,7 @@ export default function createRouteWrapper(keyString, cmp) {
             window.console.log(this.props.match.url);
             return (
                 <Tabs
-                    activeKey={this.props.match.url}
+                    activeKey={cacheSearch ? (this.props.match.url + this.props.location.search) : this.props.match.url}
                     tabBarStyle={{
                         display: 'none'
                     }}
@@ -56,12 +57,11 @@ export default function createRouteWrapper(keyString, cmp) {
                         .map((tab) => (
                             <TabPane
                                 forceRender={false}
-                                key={tab.url}
-                                tab={tab.url}
+                                key={cacheSearch ? (tab.url + tab.search) : tab.url}
+                                tab={cacheSearch ? (tab.url + tab.search) : tab.url}
                             >
-                                <div
-                                    style={{ width: '100%', height: 'calc(100vh - 88px)', overflow: 'hidden', position: 'relative' }}
-                                >
+                                <div>
+                                    {/* style={{ width: '100%', height: 'calc(100vh - 88px)', overflow: 'hidden', position: 'relative' }} */}
                                     {React.createElement(cmp)}
                                 </div>
                             </TabPane>
@@ -73,3 +73,4 @@ export default function createRouteWrapper(keyString, cmp) {
     }
 return withRouter(RouterWrapper);
 }
+
