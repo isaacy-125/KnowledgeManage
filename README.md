@@ -45,6 +45,8 @@
 
 21.[react-router-cache-route](https://github.com/CJY0208/react-router-cache-route)
 
+22.[传送门：React Portal](https://juejin.im/entry/59dd9a3e51882578b8184605)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -93,6 +95,8 @@
 1.[Promise学习](http://liweijieok.github.io/2018/03/21/%E5%89%8D%E7%AB%AF/promise_learn/)
 
 2.[理解 async/await](https://juejin.im/post/596e142d5188254b532ce2da)
+
+3.[理解和使用Promise.all和Promise.race](https://www.jianshu.com/p/7e60fc1be1b2)
 
 # HTML
 1.[什么是HTML语义化标签？常见HTML语义化标签大全](https://blog.csdn.net/eeeecw/article/details/80591511)
@@ -190,6 +194,8 @@
 28.[【译】理解JavaScript中的柯里化](https://juejin.im/post/5be5b5a65188250fa835897e)
 
 29.[npm（classnames） 更灵活使用类名](https://blog.csdn.net/cjg214/article/details/81125154)
+
+30.[Mutation Observer API 监控dom变化](http://javascript.ruanyifeng.com/dom/mutationobserver.html)
 
 # Image
 1.[你知道前端对图片的处理方式吗？](https://juejin.im/post/5c6276956fb9a04a06055925)
