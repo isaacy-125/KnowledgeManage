@@ -96,6 +96,8 @@
 
 2.[理解 async/await](https://juejin.im/post/596e142d5188254b532ce2da)
 
+3.[理解和使用Promise.all和Promise.race](https://www.jianshu.com/p/7e60fc1be1b2)
+
 # HTML
 1.[什么是HTML语义化标签？常见HTML语义化标签大全](https://blog.csdn.net/eeeecw/article/details/80591511)
 
