@@ -1,0 +1,15 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "hello": "node start.js"
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql": "^14.1.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1"
+  }
+}
