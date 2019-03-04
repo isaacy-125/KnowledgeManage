@@ -307,3 +307,5 @@
 
 2.[Page Visibility API 教程](http://www.ruanyifeng.com/blog/2018/10/page_visibility_api.html)
 
+3.[git commit message emoji 使用指南](https://github.com/liuchengxu/git-commit-emoji-cn)
+
