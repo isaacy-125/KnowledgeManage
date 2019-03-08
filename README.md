@@ -296,6 +296,8 @@
 
 4.[30 seconds of code](https://30secondsofcode.org/)
 
+5.[现代 Javascript 教程](https://github.com/iliakan/javascript-tutorial-en)
+
 # Architect
 1.[用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
 
