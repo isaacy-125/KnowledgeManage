@@ -47,6 +47,8 @@
 
 22.[传送门：React Portal](https://juejin.im/entry/59dd9a3e51882578b8184605)
 
+23.[react-height](https://github.com/nkbt/react-height)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -136,6 +138,8 @@
 
 16.[Tailwind 是一个实用工具集 CSS 框架](https://www.tailwindcss.cn/docs/what-is-tailwind)
 
+17.[有趣的 box-decoration-break](https://juejin.im/post/5c77457951882540447df818)
+
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
 
@@ -215,6 +219,8 @@
 
 4.[使用React DevTools Profiler诊断React App性能问题](https://www.netlify.com/blog/2018/08/29/using-the-react-devtools-profiler-to-diagnose-react-app-performance-issues/)
 
+5.[减少阻塞渲染的CSS的自动化解决方案-critical](https://www.cnblogs.com/ikcamp/p/7649623.html)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
@@ -288,6 +294,8 @@
 
 3.[前端精读周刊](https://github.com/dt-fe/weekly)
 
+4.[30 seconds of code](https://30secondsofcode.org/)
+
 # Architect
 1.[用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
 
@@ -298,8 +306,12 @@
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
 
+2.[代码截图工具-carbon](https://carbon.now.sh)
+
 # Have Fun
 1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
 
 2.[Page Visibility API 教程](http://www.ruanyifeng.com/blog/2018/10/page_visibility_api.html)
+
+3.[git commit message emoji 使用指南](https://github.com/liuchengxu/git-commit-emoji-cn)
 
