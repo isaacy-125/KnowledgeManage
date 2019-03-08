@@ -294,6 +294,8 @@
 
 3.[前端精读周刊](https://github.com/dt-fe/weekly)
 
+4.[30 seconds of code](https://30secondsofcode.org/)
+
 # Architect
 1.[用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
 
