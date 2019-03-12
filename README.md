@@ -49,6 +49,8 @@
 
 23.[react-height](https://github.com/nkbt/react-height)
 
+24.[在 react 组件中使用 debounce 函数](http://billqiu.github.io/2017/10/15/how-to-debounce-in-react/)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
