@@ -49,6 +49,8 @@
 
 23.[react-height](https://github.com/nkbt/react-height)
 
+24.[在 react 组件中使用 debounce 函数](http://billqiu.github.io/2017/10/15/how-to-debounce-in-react/)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -295,6 +297,8 @@
 3.[前端精读周刊](https://github.com/dt-fe/weekly)
 
 4.[30 seconds of code](https://30secondsofcode.org/)
+
+5.[现代 Javascript 教程](https://github.com/iliakan/javascript-tutorial-en)
 
 # Architect
 1.[用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
