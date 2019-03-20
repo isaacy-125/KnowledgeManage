@@ -28,3 +28,9 @@ console.log(a);
 var a = [3,5,2,6,4,10,8];
 //升序 b-a降序
 var b = a.sort((a, b) => a - b);
+
+//str.replace
+//匹配替换
+var a = 'hello isaac';
+a = a.replace('hello', 'byebye');
+console.log(a);
