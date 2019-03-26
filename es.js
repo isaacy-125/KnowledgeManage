@@ -34,3 +34,7 @@ var b = a.sort((a, b) => a - b);
 var a = 'hello isaac';
 a = a.replace('hello', 'byebye');
 console.log(a);
+
+//str.trim去掉字符串首尾的空格
+var a = '   123    ';
+console.log(a.trim());
