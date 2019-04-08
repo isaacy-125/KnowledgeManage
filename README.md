@@ -51,6 +51,8 @@
 
 24.[在 react 组件中使用 debounce 函数](http://billqiu.github.io/2017/10/15/how-to-debounce-in-react/)
 
+25.[React 面试题 & 回答](https://github.com/semlinker/reactjs-interview-questions)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
