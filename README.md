@@ -97,6 +97,8 @@
 
 4.[Git恢复之前版本的两种方法reset、revert](https://blog.csdn.net/yxlshk/article/details/79944535)
 
+5.[Git的奇技淫巧🙈](https://github.com/521xueweihan/git-tips)
+
 # Promise
 1.[Promise学习](http://liweijieok.github.io/2018/03/21/%E5%89%8D%E7%AB%AF/promise_learn/)
 
