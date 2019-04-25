@@ -320,6 +320,8 @@
 
 3.[UI配色方案](https://flatuicolors.com/)
 
+4.[query-string Parse and stringify URL query strings](https://github.com/sindresorhus/query-string)
+
 # Vim
 1.[mac下将vim打造成顺手的js编辑器](https://www.jianshu.com/p/06ea892566e7?open_source=weibo_search)
 
