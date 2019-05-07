@@ -97,6 +97,8 @@
 
 4.[Git恢复之前版本的两种方法reset、revert](https://blog.csdn.net/yxlshk/article/details/79944535)
 
+5.[Git的奇技淫巧🙈](https://github.com/521xueweihan/git-tips)
+
 # Promise
 1.[Promise学习](http://liweijieok.github.io/2018/03/21/%E5%89%8D%E7%AB%AF/promise_learn/)
 
@@ -134,15 +136,17 @@
 
 12.[CSS 来实现多行文字截断](https://juejin.im/post/5be2dd8fe51d451bb447e0a5)
 
-13.[ You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/introduce?v=1)
+13.[css高级应用三种方法实现多行省略](https://juejin.im/post/5caeef8be51d456e3b70185d)
 
-14.[你必须记住的30个CSS选择器](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+14.[ You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/introduce?v=1)
 
-15.[大侠，请留步，要不过来了解下CSS Scroll Snap？](http://img1.imgtn.bdimg.com/it/u=582018040,1213552119&fm=26&gp=0.jpg)
+15.[你必须记住的30个CSS选择器](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
-16.[Tailwind 是一个实用工具集 CSS 框架](https://www.tailwindcss.cn/docs/what-is-tailwind)
+16.[大侠，请留步，要不过来了解下CSS Scroll Snap？](http://img1.imgtn.bdimg.com/it/u=582018040,1213552119&fm=26&gp=0.jpg)
 
-17.[有趣的 box-decoration-break](https://juejin.im/post/5c77457951882540447df818)
+17.[Tailwind 是一个实用工具集 CSS 框架](https://www.tailwindcss.cn/docs/what-is-tailwind)
+
+18.[有趣的 box-decoration-break](https://juejin.im/post/5c77457951882540447df818)
 
 # JavaScript
 1.[从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！](http://www.dailichun.com/2018/03/12/whenyouenteraurl.html)
@@ -315,6 +319,13 @@
 2.[代码截图工具-carbon](https://carbon.now.sh)
 
 3.[UI配色方案](https://flatuicolors.com/)
+
+4.[query-string Parse and stringify URL query strings](https://github.com/sindresorhus/query-string)
+
+# Vim
+1.[mac下将vim打造成顺手的js编辑器](https://www.jianshu.com/p/06ea892566e7?open_source=weibo_search)
+
+2.[vimawesome](https://vimawesome.com/)
 
 # Have Fun
 1.[How to hide source of Log messages in Console?](https://stackoverflow.com/questions/34762774/how-to-hide-source-of-log-messages-in-console)
