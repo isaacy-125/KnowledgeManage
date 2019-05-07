@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='app'>
+        <p>Original message: "{{message}}"</p>
+        <p>Computed reversed message: "{{reversedMessage}}"</p>
+        {{ fullName }}
+        {{ fullName2 }}
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'hello',
+                firstName: 'Foo',
+                lastName: 'Bar',
+                fullName: 'Foo Bar',
+                firstName2: 'Foo2',
+                lastName2: 'Bar2',
+            },
+            computed: {
+                // 默认计算属性是get方法
+                reversedMessage: function() {
+                    return this.message.split('').reverse().join('')
+                },
+                // 计算属性可以设置get和set方法
+                fullName2: {
+                    get: function() {
+                        return this.firstName2 + '' + this.lastName
+                    },
+                    set: function(newValue) {
+                        var names = newValues.split('');
+                        this.firstName2 = names[0];
+                        this.lastName2 = names[names.length - 1]
+                    }
+                }
+            },
+            // 监听属性如果只是对于data数据进行监听
+            // 用计算属性会更好
+            watch: {
+                firstName: function(val) {
+                    this.fullName = val + '' + this.lastName
+                },
+                lastName: function(val) {
+                    this.fullName = this.firstName + '' + val
+                }
+            }
+        })
+    </script>
+</body>
+</html>

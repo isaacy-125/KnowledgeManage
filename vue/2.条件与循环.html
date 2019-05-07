@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app-3">
+        <p v-if='type == "A"'>
+            A
+        </p>
+        <p v-else-if='type == "B"'>
+            B
+        </p>
+        <p v-else>
+            else
+        </p>
+        <ol>
+            <li v-for='(todo, index) in todos'>
+                {{todo.text}} at {{ index }}
+            </li>
+        </ol>
+        <ul>
+            <li v-for='(value, name, index) in objectDatas'>
+                {{ name }}: {{ value }} at {{ index }}
+            </li>
+        </ul>
+        <div v-show='showIf'>show out</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app-3',
+            data: {
+                showIf: true,
+                seen: false,
+                type: 'A',
+                todos: [
+                    {text: '1'},
+                    {text: '2'},
+                    {text: '3'}
+                ],
+                objectDatas: {
+                    title: 'How to do lists in Vue',
+                    author: 'Jane Doe',
+                    publishedAt: '2016-04-10'
+                }
+            }
+        })
+    </script>
+</body>
+</html>

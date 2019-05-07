@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div
+            class='static'
+            :class='{
+                "active": isActive,
+                "text-danger": hasError
+            }'
+        >123</div>
+        <div
+            :class='[activeClass, errorClass]'
+        >
+            234
+        </div>
+        <div
+            :class='[isActive ? activeClass : "", errorClass]'
+        >
+            456
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                isActive: true,
+                hasError: true,
+                activeClass: 'active',
+                errorClass: 'text-danger'
+            }
+        })
+    </script>
+</body>
+</html>

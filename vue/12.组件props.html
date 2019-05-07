@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='app'>
+         <!-- 组件参数默认会加载根元素上 -->
+        <bootstrap-date-input
+            data-date-picker='activated'
+            class='date-picker-theme-dark'
+        ></bootstrap-date-input>
+
+        <base-input
+            placeholder='enter something'
+        ></base-input>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        Vue.component('bootstrap-date-input', {
+            template: `
+                <input type='date' class='form-control' />
+            `
+        });
+        Vue.component('base-input', {
+            // 该属性取消默认参数加在根元素的特性
+            inheritAttrs: false,
+            props: ['label', 'value'],
+            // $attrs表示参数加在哪个元素上
+            template: `
+                <label>
+                    {{label}}
+                    <input
+                        v-bind='$attrs'
+                        :value='value'
+                    />
+                </label>
+            `
+        })
+        var app = new Vue({
+            el: '#app',
+        })
+    </script>
+</body>
+</html>

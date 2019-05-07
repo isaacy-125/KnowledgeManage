@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='app'>
+        <button @click='getChildRef'>获取子组件ref</button>
+        <component-a>
+            <component-froma ref='froma'></component-froma>
+        </component-a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                foo: 1
+            },
+            components: {
+                'component-a': {
+                    template: `
+                        <div>
+                            <button @click='getRootFoo'>获取根实例foo</button>
+                            <button @click='getRootComputed'>获取根实例computed方法</button>
+                            <button @click='getRootMethods'>获取根实例methods方法</button>
+                            <button @click='getMethodsFromProvide'>获取通过provider传入的方法</button>
+                            <slot></slot>
+                        </div>
+                    `,
+                    inject: ['getMethodsFromProvide'],
+                    data: function() {
+                        return {
+                            fooa: 2
+                        }
+                    },
+                    methods: {
+                        getRootFoo: function() {
+                            // 获取根实例数据
+                            alert(this.$root.foo)
+                        },
+                        getRootComputed: function() {
+                            alert(this.$root.bar)
+                        },
+                        getRootMethods: function() {
+                            alert(this.$root.baz())
+                        },
+                    },
+                },
+                'component-froma': {
+                    template: `
+                        <div>
+                            <button
+                                @click='getParentFooA'
+                            >
+                                获取父组件数据
+                            </button>
+                        </div>
+                    `,
+                    methods: {
+                        getParentFooA: function() {
+                            alert(this.$parent.fooa)
+                        }
+                    }
+                }
+            },
+            computed: {
+                bar: function() {
+                    alert('this is bar');
+                }
+            },
+            provide: function() {
+                return {
+                    getMethodsFromProvide: this.getMethodsFromProvide
+                }
+            },
+            methods: {
+                baz: function() {
+                    alert('this is baz');
+                },
+                getChildRef: function() {
+                    console.log(this.$refs);
+                },
+                getMethodsFromProvide: function() {
+                    alert('get methods from provide')
+                }
+            }
+        })
+    </script>
+</body>
+</html>

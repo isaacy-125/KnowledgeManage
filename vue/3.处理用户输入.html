@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app-5">
+        <p>{{message}}</p>
+        <!-- 阻止冒泡 stopPropagation() -->
+        <!-- .prevent = event.preventDefault() -->
+        <button v-on:click.stop='reverseMessage($event)'>逆转消息</button>
+        <input type="text" v-model='message'>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var app5 = new Vue({
+            el: '#app-5',
+            data: {
+                message: 'hello vue.js'
+            },
+            methods: {
+                reverseMessage: function(event) {
+                    console.log(event);
+                    this.message = this.message.split('').reverse().join('');
+                }
+            }
+        })
+    </script>
+</body>
+</html>

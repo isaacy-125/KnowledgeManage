@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='app'>
+            <navigation-link
+                url='/profile'
+            >
+                <!-- Your Profile -->
+            </navigation-link>
+
+            <base-layout>
+                <template v-slot:header>
+                    <h1>Here might be a page title</h1>
+                </template>
+                <!-- 访问子组件的数据 -->
+                <template v-slot:default='slotProps'>
+                    {{ slotProps.user.firstName }}
+                </template>
+                <template v-slot:footer>
+                    <p>Here's some contact info</p>
+                </template>
+            </base-layout>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            components: {
+                'navigation-link': {
+                    props: ['url'],
+                    template: `
+                        <a
+                            :href='url'
+                        >
+                            <slot>basic Profile</slot>
+                        </a>
+                    `
+                },
+                'base-layout': {
+                    data: function() {
+                        return {
+                            user: {
+                                firstName: '123',
+                                lastName: '234'
+                            }
+                        }
+                    },
+                    template: `
+                        <div>
+                            <header>
+                                <slot name='header'></slot>
+                            </header>
+                            <main>
+                                <slot :user='user'>{{ user.lastName }}</slot>
+                            </main>
+                            <footer>
+                                <slot name='footer'></slot>
+                            </footer>
+                        </div>
+                    `
+                }
+            }
+        })
+    </script>
+</body>
+</html>

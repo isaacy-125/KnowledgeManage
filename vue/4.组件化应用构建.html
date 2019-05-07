@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='app'>
+        <ol>
+            <todo-item
+                v-for='item in groceryList'
+                v-bind:todo='item'
+                v-bind:key='item.id'
+                @handleclick='eventFromApp'
+            ></todo-item>
+            <alert-box>
+                something bad happened
+            </alert-box>
+        </ol>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        Vue.component('todo-item', {
+            props: ['todo'],
+            data: function() {
+                return {
+                    location: 'todo-item'
+                }
+            },
+            // 运用$emit调用传入的事件props
+            template: `
+                    <li @click="$emit('handleclick', 1000)">{{todo.text}} from {{ location }}</li>
+                `
+        });
+        Vue.component('alert-box', {
+            template: `
+                <div>
+                    <strong>Error</strong>
+                    <slot></slot>
+                </div>
+            `
+        })
+        var app = new Vue({
+            el: '#app',
+            data: {
+                groceryList: [
+                    {id: 0, text: '蔬菜'},
+                    {id: 1, text: '奶酪'},
+                    {id: 2, text: '随便'}
+                ]
+            },
+            methods: {
+                eventFromApp: function(num) {
+                    alert(`eventFromApp ${num}`);
+                }
+            }
+        })
+    </script>
+</body>
+</html>

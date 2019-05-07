@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='app'>
+        <component-a></component-a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        // 局部注册方法
+        var app = new Vue({
+            el: '#app',
+            components: {
+                'component-a': {
+                    template: '<p>this is template A</p>'
+                }
+            }
+        })
+        /*
+            或者使用babel webpack的es2015模块
+            import ComponentA from './ComponentA.vue'
+
+            export default {
+                components: {
+                    ComponentA
+                },
+            }
+         */
+    </script>
+</body>
+</html>

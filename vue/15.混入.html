@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id='app'>
+        <button @click='getData'>获取data数据</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        // 全局混入方法
+        Vue.mixin({
+            created: function() {
+                var myOption = this.$options.myOption;
+                if (myOption) {
+                    alert(myOption);
+                }
+            }
+        })
+        var myMinin = {
+            created: function() {
+                this.hello();
+            },
+            methods: {
+                hello: function() {
+                    alert('hello from minxin');
+                }
+            },
+            data: {
+                message: 'hello',
+                foo: 'abc'
+            }
+        }
+        var app = new Vue({
+            el: '#app',
+            mixins: [myMinin],
+            myOption: 'hello',
+            data: {
+                message: 'goodbye',
+                bar: 'def'
+            },
+            methods: {
+                getData: function() {
+                    console.log(this.$data);
+                }
+            }
+        })
+    </script>
+</body>
+</html>
