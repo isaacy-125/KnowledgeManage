@@ -56,6 +56,8 @@
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 
+2.[传送门--portal-vue](https://github.com/LinusBorg/portal-vue)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
