@@ -53,6 +53,9 @@
 
 25.[React 面试题 & 回答](https://github.com/semlinker/reactjs-interview-questions)
 
+# Vue
+1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
