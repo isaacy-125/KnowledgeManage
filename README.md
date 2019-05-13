@@ -58,6 +58,8 @@
 
 2.[传送门--portal-vue](https://github.com/LinusBorg/portal-vue)
 
+3.[Vue.js中 watch 的高级用法](https://juejin.im/post/5ae91fa76fb9a07aa7677543)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
