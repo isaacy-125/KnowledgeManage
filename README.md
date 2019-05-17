@@ -60,6 +60,8 @@
 
 3.[Vue.js中 watch 的高级用法](https://juejin.im/post/5ae91fa76fb9a07aa7677543)
 
+4.[Vue.nextTick 的原理和用途](https://segmentfault.com/a/1190000012861862)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
