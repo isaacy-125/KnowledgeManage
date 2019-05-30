@@ -53,6 +53,8 @@
 
 25.[React 面试题 & 回答](https://github.com/semlinker/reactjs-interview-questions)
 
+26.[spa应用中的路由缓存问题与解决方案](https://juejin.im/post/5cef73a3e51d4510926a7aeb)
+
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 
