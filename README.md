@@ -64,6 +64,8 @@
 
 4.[Vue.nextTick 的原理和用途](https://segmentfault.com/a/1190000012861862)
 
+5.[Vue项目中出现Loading chunk {n} failed问题的解决方法---懒加载遇到系统更新](https://segmentfault.com/a/1190000016382323)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
