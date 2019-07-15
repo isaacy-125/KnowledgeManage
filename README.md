@@ -66,6 +66,8 @@
 
 5.[Vue项目中出现Loading chunk {n} failed问题的解决方法---懒加载遇到系统更新](https://segmentfault.com/a/1190000016382323)
 
+6.[vue缓存](https://juejin.im/post/5d2c3a28f265da1b8d164ddc)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
