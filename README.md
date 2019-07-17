@@ -246,6 +246,8 @@
 
 5.[减少阻塞渲染的CSS的自动化解决方案-critical](https://www.cnblogs.com/ikcamp/p/7649623.html)
 
+6.[一个Vue页面的内存泄露分析](https://juejin.im/post/5b2fd09ee51d45588576f429)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
