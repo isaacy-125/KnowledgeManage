@@ -332,6 +332,8 @@
 
 3.[Alibaba Fusion Design](https://fusion.design/)
 
+4.[前端微服务化解决方案](https://alili.tech/archive/ea599f7c/)
+
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
 
