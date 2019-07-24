@@ -53,6 +53,21 @@
 
 25.[React 面试题 & 回答](https://github.com/semlinker/reactjs-interview-questions)
 
+26.[spa应用中的路由缓存问题与解决方案](https://juejin.im/post/5cef73a3e51d4510926a7aeb)
+
+# Vue
+1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
+
+2.[传送门--portal-vue](https://github.com/LinusBorg/portal-vue)
+
+3.[Vue.js中 watch 的高级用法](https://juejin.im/post/5ae91fa76fb9a07aa7677543)
+
+4.[Vue.nextTick 的原理和用途](https://segmentfault.com/a/1190000012861862)
+
+5.[Vue项目中出现Loading chunk {n} failed问题的解决方法---懒加载遇到系统更新](https://segmentfault.com/a/1190000016382323)
+
+6.[vue缓存](https://juejin.im/post/5d2c3a28f265da1b8d164ddc)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -209,6 +224,8 @@
 
 30.[Mutation Observer API 监控dom变化](http://javascript.ruanyifeng.com/dom/mutationobserver.html)
 
+31.[【前端词典】4 个实用有趣的 JS 特性](https://juejin.im/post/5d1716e4f265da1bbc6fea1e)
+
 # Image
 1.[你知道前端对图片的处理方式吗？](https://juejin.im/post/5c6276956fb9a04a06055925)
 
@@ -228,6 +245,8 @@
 4.[使用React DevTools Profiler诊断React App性能问题](https://www.netlify.com/blog/2018/08/29/using-the-react-devtools-profiler-to-diagnose-react-app-performance-issues/)
 
 5.[减少阻塞渲染的CSS的自动化解决方案-critical](https://www.cnblogs.com/ikcamp/p/7649623.html)
+
+6.[一个Vue页面的内存泄露分析](https://juejin.im/post/5b2fd09ee51d45588576f429)
 
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
@@ -313,6 +332,8 @@
 
 3.[Alibaba Fusion Design](https://fusion.design/)
 
+4.[前端微服务化解决方案](https://alili.tech/archive/ea599f7c/)
+
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
 
@@ -321,6 +342,8 @@
 3.[UI配色方案](https://flatuicolors.com/)
 
 4.[query-string Parse and stringify URL query strings](https://github.com/sindresorhus/query-string)
+
+5.[Charles在Mac中抓包使用说明](https://www.cnblogs.com/handsomeye/p/7661824.html)
 
 # Vim
 1.[mac下将vim打造成顺手的js编辑器](https://www.jianshu.com/p/06ea892566e7?open_source=weibo_search)
