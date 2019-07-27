@@ -10,6 +10,8 @@ import UseReducer from './API/UseReducer';
 import UseCallback from './API/UseCallBack';
 import UseMemo from './API/UseMemo';
 import UseRef from './API/UseRef';
+import MobxIndex from './Mobx';
+import Memoized from './Memoized';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render((
@@ -23,6 +25,8 @@ ReactDOM.render((
             <li><a href="#/useCallback">UseCallback</a></li>
             <li><a href="#/useMemo">UseMemo</a></li>
             <li><a href="#/useRef">UseRef</a></li>
+            <li><a href="#/mobx">Mobx</a></li>
+            <li><a href="#/memoized">Memoized</a></li>
         </ul>
         <HashRouter>
             <Switch>
@@ -34,6 +38,8 @@ ReactDOM.render((
                 <Route exact path="/useCallback" component={UseCallback}></Route>
                 <Route exact path="/useMemo" component={UseMemo}></Route>
                 <Route exact path="/useRef" component={UseRef}></Route>
+                <Route exact path="/mobx" component={MobxIndex}></Route>
+                <Route exact path="/memoized" component={Memoized}></Route>
             </Switch>
         </HashRouter>
     </div>
