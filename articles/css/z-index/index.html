@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+        p {
+            position: absolute;
+            font-size: 20px;
+            width: 100px;
+            height: 100px;
+        }
+        .a {
+            background-color: blue;
+            z-index: 1;
+        }
+        .b {
+            background-color: green;
+            z-index: 2;
+            top: 20px;
+            left: 20px;
+        }
+        .c {
+            background-color: red;
+            z-index: 3;
+            top: -20px;
+            left: 40px;
+        }
+
+        .box1 {
+            z-index: 2;
+        }
+        .box2 {
+            z-index: 1;
+        }
+        .box1a {
+            background-color: blue;
+            z-index: 100;
+        }
+        .box1b {
+            background-color: green;
+            top: 20px;
+            left: 20px;
+            z-index: 200;
+        }
+        .box2c {
+            background-color: red;
+            top: -20px;
+            left: 40px;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <!--a b c的父元素都没有设置z-index 所有abc都处于html标签的根层叠上下文 属于同一层叠上下文-->
+    <!--此时谁的z-index大 谁在上面-->
+    <div>
+        <p class="a">a</p>
+        <p class="b">b</p>
+    </div>
+    <div>
+        <p class="c">c</p>
+    </div>
+
+    <!--
+        虽然box2c的z-index远大于box1a box1b
+        但是由于box2的z-index大于box1
+        所有box2c存在的层叠上下文大于box1de
+        则box2c在上面
+    -->
+    <div class="box1">
+        <p class="box1a">a</p>
+        <p class="box1b">b</p>
+    </div>
+    <div class="box2">
+        <p class="box2c">c</p>
+    </div>
+</body>
+</html>

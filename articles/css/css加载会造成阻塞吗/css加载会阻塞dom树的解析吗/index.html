@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: red !important;
+        }
+    </style>
+    <script>
+        function h() {
+            console.log(document.querySelectorAll('h1'));
+        }
+        setTimeout(h, 0);
+    </script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+</head>
+<body>
+    <h1>这是红色的</h1>
+    <!--
+        css没加载完 h1没有显示 但是控制台打印出了h1 说明css不会阻塞dom的解析
+        但是会阻塞dom的渲染
+
+        可以通过更改network网络来看到变化
+    -->
+</body>
+</html>

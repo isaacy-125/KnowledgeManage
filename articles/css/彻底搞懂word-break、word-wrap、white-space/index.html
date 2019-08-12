@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 150px;
+            border: 1px solid black;
+        }
+        .nowrap {
+            white-space: nowrap;
+        }
+        .pre {
+            white-space: pre-wrap;
+        }
+        .line {
+            white-space: pre-line;
+        }
+        .keepall {
+            word-break: keep-all;
+        }
+        .breakall {
+            word-break: break-all;
+        }
+        .breakword {
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    normal:
+    <div class="box">
+        Hi&nbsp;&nbsp;,
+        This   is a incomprehensibilities long word.
+        <br />
+        你好&nbsp;&nbsp;,
+        这   是一个不可思议的长单词
+    </div>
+    <br/>
+    white-space: nowrap 只有br才能换行 表现为永不换行
+    <div class="box nowrap">
+        Hi&nbsp;&nbsp;,
+        This   is a incomprehensibilities long word.
+        <br />
+        你好&nbsp;&nbsp;,
+        这   是一个不可思议的长单词
+    </div>
+    <br/>
+    white-space: pre-wrap 意为保留 保留html里面的空格和换行
+    <div class="box pre">
+        Hi&nbsp;&nbsp;,
+        This   is a incomprehensibilities long word.
+        <br />
+        你好&nbsp;&nbsp;,
+        这   是一个不可思议的长单词
+    </div>
+    <br/>
+    white-space: pre-line 保留了空格和换行 且可以自动换行
+    <div class="box line">
+        Hi&nbsp;&nbsp;,
+        This   is a incomprehensibilities long word.
+        <br />
+        你好&nbsp;&nbsp;,
+        这   是一个不可思议的长单词
+    </div>
+    <br/>
+    word-break: keep-all 表示单词不拆分换行
+    <div class="box keepall">
+        Hi&nbsp;&nbsp;,
+        This   is a incomprehensibilities long word.
+        <br />
+        你好&nbsp;&nbsp;,
+        这   是一个不可思议的长单词
+    </div>
+    <br/>
+    word-break: break-all 所有单词碰到边界换行
+    <div class="box breakall">
+        Hi&nbsp;&nbsp;,
+        This   is a incomprehensibilities long word.
+        <br />
+        你好&nbsp;&nbsp;,
+        这   是一个不可思议的长单词
+    </div>
+    <br/>
+    word-wrap: break-word 只有当一个单词一整行都显示不下时 才会拆分换行
+    <div class="box breakword">
+        Hi&nbsp;&nbsp;,
+        This   is a incomprehensibilities long word.
+        <br />
+        你好&nbsp;&nbsp;,
+        这   是一个不可思议的长单词
+    </div>
+</body>
+</html>

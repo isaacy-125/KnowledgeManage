@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        console.log('before css');
+        var startDate = new Date();
+    </script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+</head>
+<body>
+    <h1>这是红色的</h1>
+    <script>
+        var endDate = new Date()
+        console.log('after css')
+        console.log('经过了' + (endDate -startDate) + 'ms')
+    </script>
+<!--
+    位于css加载语句前的那个js代码先执行了，
+    但是位于css加载语句后面的代码迟迟没有执行，
+    直到css加载完成后，它才执行。这也就说明了，
+    css加载会阻塞后面的js语句的执行
+-->
+</body>
+</html>
