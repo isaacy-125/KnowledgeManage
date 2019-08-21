@@ -357,3 +357,6 @@
 
 3.[git commit message emoji 使用指南](https://github.com/liuchengxu/git-commit-emoji-cn)
 
+# ADD-ONS
+1.[火狐浏览器扩展](https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions#%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8)
+
