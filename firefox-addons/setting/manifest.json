@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "Settings example",
+    "version": "1.0",
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["borderify.js"]
+      }
+    ],
+    "options_ui": {
+      "page": "options.html"
+    },
+    "permissions": ["storage"]
+  }
