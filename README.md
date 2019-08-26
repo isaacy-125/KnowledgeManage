@@ -248,6 +248,8 @@
 
 6.[一个Vue页面的内存泄露分析](https://juejin.im/post/5b2fd09ee51d45588576f429)
 
+7.[使用预渲提升SPA应用体验](https://juejin.im/post/5d5fa22ee51d4561de20b5f5)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 

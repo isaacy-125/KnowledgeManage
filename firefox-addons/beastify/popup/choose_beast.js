@@ -75,6 +75,7 @@ function listenForClicks() {
          * then call "beastify()" or "reset()" as appropriate.
          */
         // 如果点击的是beast
+        console.log(e.target.classList);
         if (e.target.classList.contains("beast")) {
             // 拿到当前激活的页面
             browser.tabs.query({
