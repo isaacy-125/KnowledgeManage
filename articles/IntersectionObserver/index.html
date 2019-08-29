@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            height: 4000px;
+            overflow: auto;
+        }
+        .boxContent {
+            height: 300px;
+            overflow: auto;
+            border: 1px solid black;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+        .wrap {
+            height: 350px;
+        }
+        .imageContent {
+            margin-top: 30px;
+            height: 300px;
+            border: 1px solid black;
+            overflow: auto;
+            margin-bottom: 30px;
+        }
+        .lazyload {
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+        .nav {
+            height: 50px;
+            background: gray;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .referNav, .referText {
+            height: 1px;
+            background: red;
+        }
+        .fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .textContent {
+            height: 300px;
+            border: 1px solid black;
+            overflow: auto;
+            margin-bottom: 30px;
+        }
+        .text {
+            height: 100px;
+            background: lavenderblush;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxContent">
+        <div class="box"></div>
+        <div class="wrap">
+
+        </div>
+    </div>
+
+    <div class="imageContent">
+        <div class="wrap"></div>
+        <img data-origin="http://pic33.nipic.com/20131007/13639685_123501617185_2.jpg" class="lazyload" src="" alt="">
+        <img data-origin="http://pic1.win4000.com/wallpaper/c/53cdd1f7c1f21.jpg" class="lazyload" src="" alt="">
+        <img data-origin="http://img3.imgtn.bdimg.com/it/u=3139953554,3011511497&fm=26&gp=0.jpg" class="lazyload" src="" alt="">
+        <img data-origin="http://pic16.nipic.com/20111006/6239936_092702973000_2.jpg" class="lazyload" src="" alt="">
+    </div>
+
+    <div class="textContent">
+        <div class="text">1</div>
+        <div class="text">2</div>
+        <div class="text">3</div>
+        <div class="text">4</div>
+        <div class="text">5</div>
+        <div class="referText"></div>
+    </div>
+
+    <div class="referNav"></div>
+    <div class="nav">
+        我可以吸顶
+    </div>
+    <script>
+        let box = document.querySelector('.box');
+        let observer = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                console.log(e.isIntersecting ? 'box进入父元素boxContent' : 'box离开父元素boxContent');
+            })
+        }, {
+            root: document.querySelector('.boxContent')
+        });
+        observer.observe(box);
+
+
+        let images = document.querySelectorAll('.lazyload');
+        let observer2 = new IntersectionObserver(entries => {
+            entries.forEach(i => {
+                if (i.isIntersecting) {
+                    i.target.src = i.target.dataset.origin;
+                    observer2.unobserve(i.target);
+                }
+            })
+        }, {
+            root: document.querySelector('.imageContent')
+        })
+        images.forEach(item => observer2.observe(item));
+
+        let referText = document.querySelector('.referText');
+        // let textContent = document.querySelector('.textContent');
+        let observer4 = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    for (let i = 0; i < 6; i ++) {
+                        const newDom = document.createElement('div');
+                        newDom.classList.add('text');
+                        newDom.innerText = `${Math.random()}`;
+                        referText.parentNode.insertBefore(newDom, referText)
+                    }
+                }
+            })
+        });
+        observer4.observe(referText);
+
+
+        let nav = document.querySelector('.nav');
+        let referNav = document.querySelector('.referNav')
+        let observer3 = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                console.log(e);
+                if (e.boundingClientRect.top < 0) {
+                    nav.classList.add('fixed');
+                } else {
+                    nav.classList.remove('fixed');
+                }
+            })
+        })
+        observer3.observe(referNav);
+    </script>
+</body>
+</html>
