@@ -226,6 +226,8 @@
 
 31.[【前端词典】4 个实用有趣的 JS 特性](https://juejin.im/post/5d1716e4f265da1bbc6fea1e)
 
+32.[利用"交叉观察者"这个小宝贝儿，轻松实现懒加载、吸顶、触底 ❗](https://juejin.im/post/5d665133e51d4561c83e7c83#heading-11)
+
 # Image
 1.[你知道前端对图片的处理方式吗？](https://juejin.im/post/5c6276956fb9a04a06055925)
 
