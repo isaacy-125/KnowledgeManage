@@ -55,6 +55,8 @@
 
 26.[spa应用中的路由缓存问题与解决方案](https://juejin.im/post/5cef73a3e51d4510926a7aeb)
 
+27.[React diff原理探究以及应用实践](https://segmentfault.com/a/1190000018914249?utm_source=tag-newest)
+
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 
