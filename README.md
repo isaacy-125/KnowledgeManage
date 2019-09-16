@@ -231,6 +231,8 @@
 
 32.[利用"交叉观察者"这个小宝贝儿，轻松实现懒加载、吸顶、触底 ❗](https://juejin.im/post/5d665133e51d4561c83e7c83#heading-11)
 
+33.[浏览器的一些“滚动”行为鉴赏](https://juejin.im/post/5d75adfbe51d4561e84fcc9c)
+
 # Image
 1.[你知道前端对图片的处理方式吗？](https://juejin.im/post/5c6276956fb9a04a06055925)
 
