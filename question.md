@@ -142,6 +142,24 @@
     </ol>
 </details>
 <details>
+    <summary>模块化</summary>
+    <h2>CommonJs</h2>
+    <ol>
+        <li>commonjs主要应用于服务器，实现同步加载，如nodejs</li>
+        <li>require 模块导入</li>
+        <li>module.exports === exports 导出</li>
+    </ol>
+    <h2>AMD</h2>
+    <ol>
+        <li>AMD规范应用于浏览器，如requirejs，为异步加载</li>
+    </ol>
+    <h2>ES6</h2>
+    <ol>
+        <li>import模块导入</li>
+        <li>export 模块导出</li>
+    </ol>
+</details>
+<details>
     <summary>Webpack</summary>
     <h2>webpack 优化</h2>
     <ol>
