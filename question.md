@@ -1,12 +1,20 @@
 # 你问我答
-## React 性能优化
-    1.shouldcomponentupdate
-    2.purecomponent 纯组件 prop state没改变 不会触发render
-    3.key
-    1.避免render内部新建变量和bind函数
-    2.shouldComponentUpdate
-    3.Immutable
-    4.key的优化
+<details>
+    <summary>React</summary>
+    <pre>
+    <p>
+        React 性能优化
+    </p>
+    <ol>
+        <li>shouldcomponentupdate</li>
+        <li>purecomponent 纯组件 prop state没改变 不会触发render</li>
+        <li>key</li>
+        <li>避免render内部新建变量和bind函数</li>
+        <li>Immutable</li>
+    </ol>
+    </pre>
+</details>
+
 ## React Fiber
     1.从reactDOM.render()变成了ReactDOMFiber.render()。
     我们使用了ReactFiber去渲染整个页面，ReactFiber会将整个更新任务分成若干个小的更新任务，
@@ -93,12 +101,12 @@
 ## Mobx
 ```
     import { observable, autorun } from 'mobx';
-    
+
     const counter = observable(0);
     autorun(() => {
       console.log('autorun', counter.get());
     });
-    
+
     counter.set(1);
     // 0
     // 1
