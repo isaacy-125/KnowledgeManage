@@ -91,6 +91,46 @@
     5.雪碧图
     6.loader include exclude
 ## Mobx
+```
+    import { observable, autorun } from 'mobx';
+    
+    const counter = observable(0);
+    autorun(() => {
+      console.log('autorun', counter.get());
+    });
+    
+    counter.set(1);
+    // 0
+    // 1
+    // set后会重新触发autorun
+    // autorun 先生成一个Derivation类 执行传入函数 计算出observing(通过get方法)
+    // set之后会从observing中取他的Derivation 触发重新执行
+```
+```
+    import { observable, autorun } from 'mobx';
+    
+    const counter = observable(0);
+    const foo = observable(0);
+    const bar = observable(0);
+    autorun(() => {
+      if (counter.get() === 0) {
+        console.log('foo', foo.get());
+      } else {
+        console.log('bar', bar.get());
+      }
+    });
+    
+    bar.set(10);    // 不触发 autorun
+    counter.set(1); // 触发 autorun
+    foo.set(100);   // 不触发 autorun
+    bar.set(100);   // 触发 autorun
+    // foo 0
+    // bar 10
+    // bar 100
+    // 通过get知道 autorun先是依赖counter和foo
+    // counter.set后依赖counter bar
+```
+    
     1.Object.defineProperty，proxy 拦截 getter 和 setter
     2.Mobx 最关键的函数在于 autoRun
     3.Observable 。用来包装一个属性为 被观察者
@@ -121,6 +161,8 @@
     3.组件比较 如果是同一类型的按照原策略比较virtual dom树 如果不是 就直接替换该节点以及所有子节点
     4.同一层级的节点 diff算法有插入 移动 删除的操作 如果同一位置节点不同 就直接删除然后然后创建插入
     所以react推荐添加唯一的key进行区分
+## Redux原理
+    1.TODO
 
 
 
