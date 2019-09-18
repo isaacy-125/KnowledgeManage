@@ -226,6 +226,10 @@
     </ol>
 </details>
 <details>
+    <summary>Redux</summary>
+    <h2><a href="./my_redux/index.js">从零实现Demo</a></h2>
+</details>
+<details>
     <summary>其他</summary>
     <h2>
         函数式组件的特性 

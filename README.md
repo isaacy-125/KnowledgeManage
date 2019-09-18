@@ -3,60 +3,62 @@
 # [你问我答](./question.md)
 # Lodash
 1.[Lodash 中文文档(v4.16.1)](http://www.css88.com/doc/lodash/)
-# React
+# Redux
 1.[Redux 入门教程（一）：基本用法](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
 
 2.[Redux 中文文档](http://www.redux.org.cn/)
 
-3.[react-router v4 使用 history 控制路由跳转](https://segmentfault.com/a/1190000011137828)
+3.[完全理解 redux（从零实现一个 redux）](https://mp.weixin.qq.com/s/idWmfUbPVVqK7Yi0_9NC4A)
+# React
+1.[react-router v4 使用 history 控制路由跳转](https://segmentfault.com/a/1190000011137828)
 
-4.[React组件性能调优](http://react-china.org/t/react/11562)
+2.[React组件性能调优](http://react-china.org/t/react/11562)
 
-5.[react长列表优化方案: react-virtualized](https://juejin.im/post/5af03345f265da0b7964cf50)
+3.[react长列表优化方案: react-virtualized](https://juejin.im/post/5af03345f265da0b7964cf50)
 
-6.[ReactV16.3即将更改的生命周期](https://www.zcfy.cc/article/update-on-async-rendering)
+4.[ReactV16.3即将更改的生命周期](https://www.zcfy.cc/article/update-on-async-rendering)
 
-7.[从React到React Fiber](https://www.jianshu.com/p/9b71f91a0b21)
+5.[从React到React Fiber](https://www.jianshu.com/p/9b71f91a0b21)
 
-8.[聊聊React v16.3的UNSAFE类生命周期](https://juejin.im/post/5b97abcaf265da0afa3dcb2e)
+6.[聊聊React v16.3的UNSAFE类生命周期](https://juejin.im/post/5b97abcaf265da0afa3dcb2e)
 
-9.[React Profiler 介绍](https://juejin.im/post/5ba0f8e4f265da0ab915bcf2)
+7.[React Profiler 介绍](https://juejin.im/post/5ba0f8e4f265da0ab915bcf2)
 
-10.[DvaJS--一个解决redux使用繁琐的整套框架](https://dvajs.com/)
+8.[DvaJS--一个解决redux使用繁琐的整套框架](https://dvajs.com/)
 
-11.[React 组件通信之 React context](https://segmentfault.com/a/1190000012575622)
+9.[React 组件通信之 React context](https://segmentfault.com/a/1190000012575622)
 
-12.[React 进阶之高阶组件](https://juejin.im/post/595243d96fb9a06bbd6f5ccd)
+10.[React 进阶之高阶组件](https://juejin.im/post/595243d96fb9a06bbd6f5ccd)
 
-13.[10分钟了解react引入的hooks](https://juejin.im/post/5bdad9ca518825060a13512c)
+11.[10分钟了解react引入的hooks](https://juejin.im/post/5bdad9ca518825060a13512c)
 
-14.[React v16.6 新特性介绍](https://blog.csdn.net/sinat_17775997/article/details/83574691)
+12.[React v16.6 新特性介绍](https://blog.csdn.net/sinat_17775997/article/details/83574691)
 
-15.[react-loadable: 用于加载具有动态导入的组件的更高阶组件](https://github.com/jamiebuilds/react-loadable)
+13.[react-loadable: 用于加载具有动态导入的组件的更高阶组件](https://github.com/jamiebuilds/react-loadable)
 
-16.[react-router-dom实现全局路由登陆拦截](https://www.cnblogs.com/kdcg/p/9309600.html)
+14.[react-router-dom实现全局路由登陆拦截](https://www.cnblogs.com/kdcg/p/9309600.html)
 
-17.[你听过 React Fragments吗？?](https://segmentfault.com/a/1190000013220508)
+15.[你听过 React Fragments吗？?](https://segmentfault.com/a/1190000013220508)
 
-18.[How to get promises to work in IE10 with react](https://stackoverflow.com/questions/40281727/how-to-get-promises-to-work-in-ie10-with-react)
+16.[How to get promises to work in IE10 with react](https://stackoverflow.com/questions/40281727/how-to-get-promises-to-work-in-ie10-with-react)
 
-19.[why-did-you-update](https://github.com/maicki/why-did-you-update)
+17.[why-did-you-update](https://github.com/maicki/why-did-you-update)
 
-20.[React V16 错误处理(componentDidCatch 示例)](https://segmentfault.com/a/1190000011379425?utm_source=tag-newest)
+18.[React V16 错误处理(componentDidCatch 示例)](https://segmentfault.com/a/1190000011379425?utm_source=tag-newest)
 
-21.[react-router-cache-route](https://github.com/CJY0208/react-router-cache-route)
+19.[react-router-cache-route](https://github.com/CJY0208/react-router-cache-route)
 
-22.[传送门：React Portal](https://juejin.im/entry/59dd9a3e51882578b8184605)
+20.[传送门：React Portal](https://juejin.im/entry/59dd9a3e51882578b8184605)
 
-23.[react-height](https://github.com/nkbt/react-height)
+21.[react-height](https://github.com/nkbt/react-height)
 
-24.[在 react 组件中使用 debounce 函数](http://billqiu.github.io/2017/10/15/how-to-debounce-in-react/)
+22.[在 react 组件中使用 debounce 函数](http://billqiu.github.io/2017/10/15/how-to-debounce-in-react/)
 
-25.[React 面试题 & 回答](https://github.com/semlinker/reactjs-interview-questions)
+23.[React 面试题 & 回答](https://github.com/semlinker/reactjs-interview-questions)
 
-26.[spa应用中的路由缓存问题与解决方案](https://juejin.im/post/5cef73a3e51d4510926a7aeb)
+24.[spa应用中的路由缓存问题与解决方案](https://juejin.im/post/5cef73a3e51d4510926a7aeb)
 
-27.[React diff原理探究以及应用实践](https://segmentfault.com/a/1190000018914249?utm_source=tag-newest)
+25.[React diff原理探究以及应用实践](https://segmentfault.com/a/1190000018914249?utm_source=tag-newest)
 
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
