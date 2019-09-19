@@ -1,4 +1,13 @@
 # 你问我答
+map
+symbol
+getproname
+for in
+for of
+trim
+缓存
+csrf
+算法 2个数 2个数和等于另一个数
 <details>
     <summary>React</summary>
     <h2>
@@ -140,6 +149,42 @@
         <li>一般用于动画，与 setTimeout 方法类似，区别是 setTimeout 是用户指定的</li>
         <li>requestAnimationFrame 是浏览器刷新频率决定的，一般遵循 W3C 标准，它在浏览器每次刷新页面之前执行</li>
     </ol>
+    <h2>javascript中有哪些数据类型</h2>
+    <ol>
+        <li>String</li>
+        <li>Boolean</li>
+        <li>Number</li>
+        <li>Symbol</li>
+        <li>Null</li>
+        <li>Undefined</li>
+        <li>Object</li>
+    </ol>
+    <h2>解释一下symbol</h2>
+    <ol>
+        <li>Symbol 是 ES6 引入了一种新的原始数据类型，表示独一无二的值</li>
+        <li>可以用作对象的属性名保证唯一不重名</li>
+        <li>Symbol 作为属性名，不会被常规方法遍历得到，即该属性不会出现在for...in、for...of循环中，也不会被Object.keys()、Object.getOwnPropertyNames()、JSON.stringify()返回，但是，它并不是私有属性，可以使用 Object.getOwnPropertySymbols 方法，可以获取指定对象的所有 Symbol 属性名</li>
+    </ol>
+    <h2>Map和object的区别</h2>
+    <ol>
+        <li>例：{(1, "smile"), (2, "cry"), (42, "happy")}
+        Map中的键和值可以是任何数据类型，不仅限于字符串或整数
+        </li>
+        <li>JSON直接支持Object，但尚未支持Map。因此，在某些我们必须使用JSON的情况下，应将Object视为首选</li>
+        <li>Map是一个纯哈希结构，而Object不是（它拥有自己的内部逻辑）。使用delete对Object的属性进行删除操作存在很多性能问题。所以，针对于存在大量增删操作的场景，使用Map更合适</li>
+        <li>不同于Object，Map会保留所有元素的顺序。Map结构是在基于可迭代的基础上构建的，所以如果考虑到元素迭代或顺序，使用Map更好，它能够确保在所有浏览器中的迭代性能。</li>
+        <li>Map在存储大量数据的场景下表现更好，尤其是在key为未知状态，并且所有key和所有value分别为相同类型的情况下</li>
+    </ol>
+    <h2>for in for of区别</h2>
+    <ol>
+        <li>for in的index是字符串类型，遍历可能不是按照实际顺序,会遍历所有可枚举属性 包括原型上的，更适合遍历对象 不遍历数组</li>
+        <li>for of一般用于遍历数组 不能遍历对象</li>
+    </ol>
+    <h2>object.keys object.getOwnPropertyNames区别</h2>
+    <ol>
+        <li>object.keys返回自身所有可枚举属性</li>
+        <li>object.getOwnPropertyNames返回自身所有属性包括不可枚举属性</li>
+    </ol>
 </details>
 <details>
     <summary>模块化</summary>
@@ -228,6 +273,14 @@
 <details>
     <summary>Redux</summary>
     <h2><a href="./my_redux/index.js">从零实现Demo</a></h2>
+</details>
+<details>
+    <summary>算法</summary>
+    <h2>给定一个整数数组，找出其中两个数相加等于目标值</h2>
+    <ol>
+        <li>遍历两次 一个数跟后面所有数相加判断</li>
+        <li>先将数组排序 定义两个指针 一个从左往右 一个从右往左 遍历找到</li>
+    </ol>
 </details>
 <details>
     <summary>其他</summary>
