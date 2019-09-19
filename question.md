@@ -1,13 +1,4 @@
 # 你问我答
-map
-symbol
-getproname
-for in
-for of
-trim
-缓存
-csrf
-算法 2个数 2个数和等于另一个数
 <details>
     <summary>React</summary>
     <h2>
