@@ -60,6 +60,8 @@
 
 25.[React diff原理探究以及应用实践](https://segmentfault.com/a/1190000018914249?utm_source=tag-newest)
 
+26.[React 应用设计之道 - curry 化妙用](https://juejin.im/post/5ad707a06fb9a028c369529f)
+
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 
