@@ -53,12 +53,24 @@
         <li>同一层级的节点 diff算法有插入 移动 删除的操作 如果同一位置节点不同 就直接删除然后然后创建插入
     所以react推荐添加唯一的key进行区分</li>
     </ol>
+    <h2>React 组件通信</h2>
+    <ol>
+        <li>传入prop或方法回调</li>
+        <li>context</li>
+        <li>使用监听订阅</li>
+    </ol>
 </details>
 <details>
     <summary>Vue</summary>
     <h2>nextTick</h2>
     <ol>
         <li>在下次 DOM 更新循环结束之后执行延迟回调 更新异步</li>
+    </ol>
+    <h2>父子组件通信</h2>
+    <ol>
+        <li>父组件传递props给子组件 子组件emit发送事件回调给父组件</li>
+        <li>$children $parent访问</li>
+        <li>$attrs $listeners接收参数</li>
     </ol>
 </details>
 <details>
