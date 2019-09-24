@@ -124,9 +124,19 @@
         <li>async 函数的实现，就是将 Generator 函数和自动执行器</li>
         <li>当函数执行的时候，一旦遇到 await 就会先返回，等到触发的异步操作完成，再接着执行函数体内后面的语句</li>
     </ol>
-    <h2>promise.all</h2>
+    <h2>promise</h2>
     <ol>
-        <li>这个返回的 promise 之后会在所有的 promise 都完成或有一个 promise 失败时异步地变为完成或失败</li>
+        <li>promise.all: 这个返回的 promise 之后会在所有的 promise 都完成或有一个 promise 失败时异步地变为完成或失败</li>
+        <li>promise内的逻辑会同步执行 只有then方法和catch方法是异步的
+            <pre>
+                console.log('1')
+                new Promise(() => {
+                    console.log('2');
+                })
+                console.log('2')
+                // 1 2 3
+            </pre>
+        </li>
     </ol>
     <h2>
         call apply bind
