@@ -347,6 +347,10 @@
 
 4.[前端微服务化解决方案](https://alili.tech/archive/ea599f7c/)
 
+5.[前端分层架构实践心得](https://juejin.im/post/5d9bfbd451882560984db815)
+
+6.[ddd-fe-demo 领域驱动前端demo](https://github.com/Vincedream/ddd-fe-demo)
+
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
 
