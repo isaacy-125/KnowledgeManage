@@ -351,6 +351,8 @@
 
 6.[ddd-fe-demo 领域驱动前端demo](https://github.com/Vincedream/ddd-fe-demo)
 
+7.[single-spa微前端](https://single-spa.js.org/)
+
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
 
