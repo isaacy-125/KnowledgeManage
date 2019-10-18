@@ -75,6 +75,8 @@
 
 6.[vue缓存](https://juejin.im/post/5d2c3a28f265da1b8d164ddc)
 
+7.[vue中央事件总线eventBus的简单理解和使用](https://www.cnblogs.com/singerlee-changealive/p/10519822.html)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
