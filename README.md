@@ -76,6 +76,8 @@
 
 6.[vue缓存](https://juejin.im/post/5d2c3a28f265da1b8d164ddc)
 
+7.[vue中央事件总线eventBus的简单理解和使用](https://www.cnblogs.com/singerlee-changealive/p/10519822.html)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
@@ -351,6 +353,8 @@
 5.[前端分层架构实践心得](https://juejin.im/post/5d9bfbd451882560984db815)
 
 6.[ddd-fe-demo 领域驱动前端demo](https://github.com/Vincedream/ddd-fe-demo)
+
+7.[single-spa微前端](https://single-spa.js.org/)
 
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
