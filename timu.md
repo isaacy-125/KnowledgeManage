@@ -39,7 +39,7 @@ for (i = 0; i < 3; i++) {
 * settimeout后调用log 拿取最新i
 * 3,3,3
 
-# 4.
+# 4.变量提升
 ```javascript
 myVar;   // => ???
 myConst; // => ???
@@ -49,3 +49,17 @@ const myConst = 3.14;
 ```
 * const前定义变量报错
 * var 变量提升为undefined
+
+# 5.执行顺序
+```javascript
+var a = {n: 1}
+var b = a;
+a.x = a = {n: 2}
+a.x => ?
+b.x => ?
+```
+* a,b 同时指向内存地址{n: 1}
+* 表达式赋值默认从右往左 但.的优先级最高 先执行a.x a,b 都指向一个新的地址{n: 1, x: undefined}
+* 然后a赋值为{n: 2}
+* 最后a为{n:2}
+* b = {n: 1, x: {n: 2}}
