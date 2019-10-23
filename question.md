@@ -66,11 +66,19 @@
     <ol>
         <li>在下次 DOM 更新循环结束之后执行延迟回调 更新异步</li>
     </ol>
-    <h2>父子组件通信</h2>
+    <h2>组件通信</h2>
     <ol>
         <li>父组件传递props给子组件 子组件emit发送事件回调给父组件</li>
         <li>$children $parent访问</li>
         <li>$attrs $listeners接收参数</li>
+        <li>provide/inject一个祖先组件向其所有子孙后代注入一个依赖，不论组件层次有多深，并在起上下游关系成立的时间里始终生效</li>
+        <li>eventbus</li>
+        <li>vuex</li>
+    </ol>
+    <h2>Vue生命周期</h2>
+    <ol>
+        <li>beforeCreate、created（此时需说明可以在created中首次拿到data中定义的数据）、beforeMount、mounted（此时需说明dom树渲染结束，可访问dom结构）、beforeUpdate、updated、beforeDestroy、destroyed
+        </li>
     </ol>
 </details>
 <details>
