@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="observerDom">
+        123
+    </div>
+    <script>
+        window.onload = function() {
+            function callback(mutations, observer) {
+                mutations.forEach(function(mutation) {
+                    console.log(mutation);
+                });
+            }
+            let observer = new MutationObserver(callback);
+            observer.observe(document.getElementsByClassName('observerDom')[0], {
+                attributes: true, // Boolean - 观察目标属性的改变
+                characterData: true, // Boolean - 观察目标数据的改变(改变前的数据/值)
+                childList: true, // Boolean - 观察目标子节点的变化，比如添加或者删除目标子节点，不包括修改子节点以及子节点后代的变化
+                subtree: true, // Boolean - 目标以及目标的后代改变都会观察
+                attributeOldValue: true, // Boolean - 表示需要记录改变前的目标属性值
+                characterDataOldValue: true, // Boolean - 设置了characterDataOldValue可以省略characterData设置
+                // attributeFilter: ['src', 'class'] // Array - 观察指定属性
+            })
+        }
+        // observer.disconnect()
+    </script>
+</body>
+</html>
