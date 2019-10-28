@@ -206,6 +206,22 @@
         <li>object.keys返回自身所有可枚举属性</li>
         <li>object.getOwnPropertyNames返回自身所有属性包括不可枚举属性</li>
     </ol>
+    <h2>类型判断</h2>
+    <ol>
+        <li>typeof关键字能正确判断number,boolean，string,function,object,undefined,对于数组和null类型会返回object类型
+        typeof 2 == 'number'
+        </li>
+        <li>instanceof关键字只有引用类型Array,Function,Object被精确判断
+        [] instanceof Array == true
+        </li>
+        <li>constructor关键字能精确判断 但是如果修改对象原型 类型就会变成修改后的类型
+        (('str').constructor == String) == true
+        </li>
+        <li>使用Object的原型方法toStirng，调用call方法 可以精确判断
+        var a = Object.prototype.toString;
+        a.call(2) == '[object Number]'
+        </li>
+    </ol>
 </details>
 <details>
     <summary>模块化</summary>
