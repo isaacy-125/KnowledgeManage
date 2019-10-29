@@ -240,6 +240,8 @@
 
 33.[浏览器的一些“滚动”行为鉴赏](https://juejin.im/post/5d75adfbe51d4561e84fcc9c)
 
+34.[【ES6基础】Map与WeakMap](https://juejin.im/post/5cce38e55188257a9f46962d)
+
 # Image
 1.[你知道前端对图片的处理方式吗？](https://juejin.im/post/5c6276956fb9a04a06055925)
 
