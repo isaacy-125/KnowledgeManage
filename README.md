@@ -78,6 +78,9 @@
 
 7.[vue中央事件总线eventBus的简单理解和使用](https://www.cnblogs.com/singerlee-changealive/p/10519822.html)
 
+# Angular
+1.[一个Angular项目的在线例子](https://stackblitz.com/edit/angular-whmzrc)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
