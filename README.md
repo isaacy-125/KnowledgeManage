@@ -81,6 +81,8 @@
 # Angular
 1.[一个Angular项目的在线例子](https://stackblitz.com/edit/angular-whmzrc)
 
+2.[总结的英雄主题的Angular仓库包括知识整理](https://github.com/isaacloveadan/NgHero)
+
 # Immutable
 1.[Immutable 常用API简介](https://segmentfault.com/a/1190000010676878)
 
