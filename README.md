@@ -247,6 +247,8 @@
 
 34.[【ES6基础】Map与WeakMap](https://juejin.im/post/5cce38e55188257a9f46962d)
 
+35.[JS操作小技巧，工作简单了](https://juejin.im/post/5dd4a4015188252a18737535)
+
 # Image
 1.[你知道前端对图片的处理方式吗？](https://juejin.im/post/5c6276956fb9a04a06055925)
 
