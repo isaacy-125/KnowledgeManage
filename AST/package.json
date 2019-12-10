@@ -1,0 +1,16 @@
+{
+  "name": "ast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "script1": "node index.js",
+    "script2": "node read demo.js",
+    "script3": "node exportific demo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "recast": "^0.18.5"
+  }
+}
