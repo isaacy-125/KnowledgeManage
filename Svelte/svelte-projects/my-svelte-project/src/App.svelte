@@ -3,6 +3,11 @@
 	import Attributes from './Attributes.svelte';
 	import HtmlRender from './HtmlRender.svelte';
 	import Reactivity from './Reactivity.svelte';
+	import PropParent from './PropParent.svelte';
+	import Logic from './Logic.svelte';
+	import Promise from './Promise.svelte';
+	import Events from './Events.svelte';
+	import Bind from './Bind.svelte';
 	export let name;
 </script>
 
@@ -11,6 +16,11 @@
 	<Attributes />
 	<HtmlRender />
 	<Reactivity />
+	<PropParent />
+	<Logic />
+	<Promise />
+	<Events />
+	<Bind />
 </main>
 
 <style>
