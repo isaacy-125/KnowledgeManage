@@ -9,6 +9,7 @@
 	import Events from './Events.svelte';
 	import Bind from './Bind.svelte';
 	import Lifecycle from './Lifecycle.svelte';
+	import StoreSvelte from './Store.svelte';
 
 	export let name;
 </script>
@@ -24,6 +25,7 @@
 	<Events />
 	<Bind />
 	<Lifecycle />
+	<StoreSvelte />
 </main>
 
 <style>
