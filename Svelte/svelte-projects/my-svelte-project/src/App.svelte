@@ -8,6 +8,8 @@
 	import Promise from './Promise.svelte';
 	import Events from './Events.svelte';
 	import Bind from './Bind.svelte';
+	import Lifecycle from './Lifecycle.svelte';
+
 	export let name;
 </script>
 
@@ -21,6 +23,7 @@
 	<Promise />
 	<Events />
 	<Bind />
+	<Lifecycle />
 </main>
 
 <style>
