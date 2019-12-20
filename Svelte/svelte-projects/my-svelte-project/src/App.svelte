@@ -10,6 +10,8 @@
 	import Bind from './Bind.svelte';
 	import Lifecycle from './Lifecycle.svelte';
 	import StoreSvelte from './Store.svelte';
+	import Classes from './Classes.svelte';
+	import SlotParent from './Slots/SlotParent.svelte';
 
 	export let name;
 </script>
@@ -26,6 +28,8 @@
 	<Bind />
 	<Lifecycle />
 	<StoreSvelte />
+	<Classes />
+	<SlotParent />
 </main>
 
 <style>
