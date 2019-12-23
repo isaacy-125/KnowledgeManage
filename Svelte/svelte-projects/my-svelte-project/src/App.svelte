@@ -12,6 +12,7 @@
 	import StoreSvelte from './Store.svelte';
 	import Classes from './Classes.svelte';
 	import SlotParent from './Slots/SlotParent.svelte';
+	import ContextParent from './Context/Parent.svelte';
 
 	export let name;
 </script>
@@ -30,6 +31,7 @@
 	<StoreSvelte />
 	<Classes />
 	<SlotParent />
+	<ContextParent />
 </main>
 
 <style>

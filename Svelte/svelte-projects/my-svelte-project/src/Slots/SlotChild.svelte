@@ -9,6 +9,22 @@
 }
 </style>
 
-<div class="box">
-	<slot></slot>
+<script>
+    let hovering;
+</script>
+
+<div
+    class="box"
+    on:mouseenter={() => hovering = true}
+    on:mouseleave={() => hovering = false}
+>
+<!--    如果没有传入slot 则默认显示如下-->
+<!--    给父级回传参数-->
+    <slot hovering={hovering}></slot>
+    <h2>
+        <slot name="name"></slot>
+    </h2>
+    <h5>
+        <slot name="intro"></slot>
+    </h5>
 </div>
