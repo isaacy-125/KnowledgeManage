@@ -251,6 +251,9 @@
 
 35.[JS操作小技巧，工作简单了](https://juejin.im/post/5dd4a4015188252a18737535)
 
+# Testing
+1.[cypress入门的笔记](https://www.cnblogs.com/catsinwinter/p/11447106.html)
+
 # Trending
 1.[svelte--no runtime module](https://github.com/sveltejs/svelte)
 
