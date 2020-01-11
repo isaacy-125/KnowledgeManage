@@ -30,15 +30,16 @@ function bubbleSort(arr) {
         return [];
     }
     for (let i = 0; i < length; i++) {
-        for (let i = 0; i < length; i++) {
-            for (let j = 0; j < length - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
-                }
+        console.log('----');
+        for (let j = 0; j < length - i - 1; j++) {
+            console.log(i, j, j + 1)
+            if (arr[j] > arr[j + 1]) {
+                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
             }
         }
-        return arr;
+        console.log('----');
     }
+    return arr;
 }
 
 /*
@@ -75,4 +76,38 @@ function bubbleSortMark(arr) {
     }
     return arr;
 }
-bubbleSortMark(array)
+
+/*
+* 第三版优化
+* 比如数组 [3,4,2,1,5,6,7,8]
+* 可见数组后半段 其实已经是最大 并且排好序
+* 前四次 循环 生成有序区 5,6,7,8其实多余重复
+* 则记录最后一次元素交换的位置 那个位置也就是无序数列的边界，再往后就是有序区了
+* 比如第一次排序 最后交换位置是 3,2,1,4 则后面就不循环之后的了
+* */
+
+function bubbleSortLastExchange(arr) {
+    let length = arr.length;
+    if (!length) {
+        return [];
+    }
+    let lastExchangeIndex = 0;
+    let sortBorder = arr.length - 1;
+    for (let i = 0; i < length; i++) {
+        let mark = true; // 如果在一轮比较中没有出现需要交互的数据，说明数组已经有序，
+        for (let j = 0; j < sortBorder; j++) {
+            if (arr[j] > arr[j + 1]) {
+                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+                mark = false;
+                lastExchangeIndex = j;
+            }
+        }
+        sortBorder = lastExchangeIndex;
+        if (mark) {
+            console.log('mark为true', arr, i);
+            return;
+        }
+    }
+    return arr;
+}
+console.log(bubbleSort(array));
