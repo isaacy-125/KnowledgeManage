@@ -63,6 +63,8 @@
 
 26.[React 应用设计之道 - curry 化妙用](https://juejin.im/post/5ad707a06fb9a028c369529f)
 
+27.[使用 React.memo 和 useMemo 对 Function Component 进行性能优化](http://www.ptbird.cn/react-hook-useMemo-purerender.html)
+
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 
