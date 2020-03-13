@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import StoreContext from '../StoreContext';
 
-function TodoList({ todos, toggleTodo }) {
+function TodoList() {
+  const { store } = useContext(StoreContext);
   return (
     <ul
       data-testid="todoList"
       style={{ listStyle: 'none' }}
     >
-      {todos &&
-        todos.map((t, i) => (
+      {store.todos &&
+        store.todos.map((t, i) => (
           <li
-            onClick={() => toggleTodo(i)}
+            onClick={() => store.toggleTodo(i)}
             style={{
               margin: 10,
               opacity: t.completed ? 0.5 : 1,

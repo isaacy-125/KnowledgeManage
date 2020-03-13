@@ -12,6 +12,7 @@ import UseMemo from './API/UseMemo';
 import UseRef from './API/UseRef';
 import MobxIndex from './Mobx';
 import Memoized from './Memoized';
+import ReactUse from './react-use';
 import * as serviceWorker from './serviceWorker';
 
 const App = React.lazy(() => new Promise((resolve) => {
@@ -37,6 +38,7 @@ ReactDOM.render((
             <li><a href="#/useRef">UseRef</a></li>
             <li><a href="#/mobx">Mobx</a></li>
             <li><a href="#/memoized">Memoized</a></li>
+            <li><a href="#/react-use">React-Use</a></li>
         </ul>
         <React.Suspense fallback={<div>Loading...</div>}>
             <HashRouter>
@@ -51,6 +53,7 @@ ReactDOM.render((
                     <Route exact path="/useRef" component={UseRef}></Route>
                     <Route exact path="/mobx" component={MobxIndex}></Route>
                     <Route exact path="/memoized" component={Memoized}></Route>
+                    <Route exact path="/react-use" component={ReactUse}></Route>
                 </Switch>
             </HashRouter>
         </React.Suspense>
