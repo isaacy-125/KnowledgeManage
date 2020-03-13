@@ -63,6 +63,8 @@
 
 26.[React 应用设计之道 - curry 化妙用](https://juejin.im/post/5ad707a06fb9a028c369529f)
 
+27.[使用 React.memo 和 useMemo 对 Function Component 进行性能优化](http://www.ptbird.cn/react-hook-useMemo-purerender.html)
+
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 
@@ -251,6 +253,10 @@
 
 35.[JS操作小技巧，工作简单了](https://juejin.im/post/5dd4a4015188252a18737535)
 
+36.[Commander写自己的Nodejs命令](http://blog.fens.me/nodejs-commander/)
+
+37.[Set、WeakSet、Map及WeakMap #24](https://github.com/sisterAn/blog/issues/24)
+
 # Testing
 1.[cypress入门的笔记](https://www.cnblogs.com/catsinwinter/p/11447106.html)
 
@@ -379,6 +385,10 @@
 7.[single-spa微前端](https://single-spa.js.org/)
 
 8.[前端工程师应该知道的yarn知识](https://juejin.im/post/5da9c6b0e51d4524d67486e2)
+
+9.[H5 PWA技术](https://www.cnblogs.com/yangyangxxb/p/9964959.html)
+
+10.[改造你的网站，变身 PWA](https://www.jianshu.com/p/7546527a786d)
 
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
