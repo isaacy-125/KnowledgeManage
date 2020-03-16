@@ -12,6 +12,9 @@ import UsePageLeave from './UsePageLeave';
 import UseScroll from './UseScroll';
 import UseScrolling from './UseScrolling';
 import UseSize from './UseSize';
+import UseStartTyping from "./UseStartTyping";
+import UseWindowScroll from "./UseWindowScroll";
+import UseMeasure from "./UseMeasure";
 
 function ReactUse() {
     return (
@@ -29,6 +32,9 @@ function ReactUse() {
             <UseScroll />
             <UseScrolling />
             <UseSize />
+            <UseStartTyping />
+            <UseWindowScroll />
+            <UseMeasure />
         </React.Fragment>
     )
 }
