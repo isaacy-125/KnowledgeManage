@@ -403,6 +403,8 @@
 
 6.[正则大全](https://any86.github.io/any-rule/)
 
+7.[解决Homebrew下载更新极慢的问题](https://www.raydbg.com/2019/Homebrew-Update-Slow/)
+
 # Vim
 1.[mac下将vim打造成顺手的js编辑器](https://www.jianshu.com/p/06ea892566e7?open_source=weibo_search)
 
