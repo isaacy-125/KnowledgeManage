@@ -405,6 +405,8 @@
 
 7.[解决Homebrew下载更新极慢的问题](https://www.raydbg.com/2019/Homebrew-Update-Slow/)
 
+8.[一键下载github文件](http://kinolien.github.io/gitzip/)
+
 # Vim
 1.[mac下将vim打造成顺手的js编辑器](https://www.jianshu.com/p/06ea892566e7?open_source=weibo_search)
 
