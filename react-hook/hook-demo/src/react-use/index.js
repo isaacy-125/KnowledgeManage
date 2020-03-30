@@ -15,6 +15,7 @@ import UseSize from './UseSize';
 import UseStartTyping from "./UseStartTyping";
 import UseWindowScroll from "./UseWindowScroll";
 import UseMeasure from "./UseMeasure";
+import UseClickAway from './UseClickAway';
 
 function ReactUse() {
     return (
@@ -35,6 +36,7 @@ function ReactUse() {
             <UseStartTyping />
             <UseWindowScroll />
             <UseMeasure />
+            <UseClickAway />
         </React.Fragment>
     )
 }
