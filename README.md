@@ -257,6 +257,8 @@
 
 37.[Set、WeakSet、Map及WeakMap #24](https://github.com/sisterAn/blog/issues/24)
 
+38.[ES2020 已定稿！赶紧上手实践一下吧](https://juejin.im/post/5eca8607e51d457890602072)
+
 # Testing
 1.[cypress入门的笔记](https://www.cnblogs.com/catsinwinter/p/11447106.html)
 
