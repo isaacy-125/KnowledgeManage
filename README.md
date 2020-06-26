@@ -276,6 +276,8 @@
 # Typescript
 1.[TypeScript中文网](https://www.tslang.cn/index.html)
 
+2.[1.2W字 | 了不起的 TypeScript 入门教程](https://juejin.im/post/5edd8ad8f265da76fc45362c)
+
 # GraphQL
 1.[GraphQL--一种用于 API 的查询语言](http://graphql.cn/)
 
