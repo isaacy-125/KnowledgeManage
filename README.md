@@ -80,6 +80,8 @@
 
 7.[vue中央事件总线eventBus的简单理解和使用](https://www.cnblogs.com/singerlee-changealive/p/10519822.html)
 
+8.[实战技巧，Vue原来还可以这样写](https://juejin.im/post/5eef7799f265da02cd3b82fe#heading-17)
+
 # Angular
 1.[一个Angular项目的在线例子](https://stackblitz.com/edit/angular-whmzrc)
 
