@@ -296,6 +296,8 @@
 
 7.[使用预渲提升SPA应用体验](https://juejin.im/post/5d5fa22ee51d4561de20b5f5)
 
+8.[前端性能优化之gzip](https://www.cnblogs.com/darkerxi/p/10371084.html)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
