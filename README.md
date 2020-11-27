@@ -133,6 +133,8 @@
 
 5.[Git的奇技淫巧🙈](https://github.com/521xueweihan/git-tips)
 
+6.[git删除指定commit](https://www.cnblogs.com/lwcode6/p/11809973.html)
+
 # Promise
 1.[Promise学习](http://liweijieok.github.io/2018/03/21/%E5%89%8D%E7%AB%AF/promise_learn/)
 
