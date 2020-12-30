@@ -302,6 +302,10 @@
 
 9.[用 preload 预加载页面资源](https://juejin.im/post/5a7fb09bf265da4e8e785c38#comment)
 
+10.[使用 Preload&Prefetch 优化前端页面的资源加载](https://www.modb.pro/db/34168)
+
+11.[推荐一款js脚本预加载的插件](https://juejin.cn/post/6844903517333962760)
+
 # Python
 1.[PaddlePaddle训练营](http://ai.baidu.com/paddlepaddle/player?id=88)
 
