@@ -265,6 +265,8 @@
 
 39.[设计模式前端应用——策略模式](https://www.cnblogs.com/zhiying/p/9648237.html)
 
+40.[前端单例模式的应用场景](https://blog.csdn.net/gwdgwd123/article/details/82218644)
+
 # Testing
 1.[cypress入门的笔记](https://www.cnblogs.com/catsinwinter/p/11447106.html)
 
