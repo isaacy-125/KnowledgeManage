@@ -354,6 +354,8 @@
 
 2.[webpack 中文文档](https://webpack.docschina.org/concepts/)
 
+3.[懒人神器：svg-sprite-loader实现自己的Icon组件](https://segmentfault.com/a/1190000015367490)
+
 # Flutter
 1.[Flutter免费视频教程第一季：开发环境搭建](https://juejin.im/post/5be3d54cf265da611d6624d3)
 
