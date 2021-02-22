@@ -356,6 +356,8 @@
 
 3.[懒人神器：svg-sprite-loader实现自己的Icon组件](https://segmentfault.com/a/1190000015367490)
 
+4.[webpack多页面打包实践](https://zhuanlan.zhihu.com/p/109527475)
+
 # Flutter
 1.[Flutter免费视频教程第一季：开发环境搭建](https://juejin.im/post/5be3d54cf265da611d6624d3)
 
