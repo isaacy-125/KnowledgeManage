@@ -422,6 +422,8 @@
 
 13.[jscodeshift-ast](https://github.com/facebook/jscodeshift)
 
+14.[package.json中的resolution](https://zju.date/package-json-resolutions/)
+
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
 
