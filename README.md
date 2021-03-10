@@ -426,6 +426,8 @@
 
 14.[package.json中的resolution](https://zju.date/package-json-resolutions/)
 
+15.[九种跨域方式实现原理（完整版）](https://juejin.cn/post/6844903767226351623)
+
 # Tools
 1.[CodeSandbox-在线代码编辑器](https://codesandbox.io/)
 
