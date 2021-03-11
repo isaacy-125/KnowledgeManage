@@ -269,6 +269,8 @@
 
 40.[前端单例模式的应用场景](https://blog.csdn.net/gwdgwd123/article/details/82218644)
 
+41.[观察者模式 vs 发布订阅模式](https://juejin.cn/post/6844903733738864654)
+
 # Testing
 1.[cypress入门的笔记](https://www.cnblogs.com/catsinwinter/p/11447106.html)
 
