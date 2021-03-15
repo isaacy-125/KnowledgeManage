@@ -362,6 +362,8 @@
 
 4.[webpack多页面打包实践](https://zhuanlan.zhihu.com/p/109527475)
 
+5.[webpack 5 联邦模块介绍](https://juejin.cn/post/6847902220298649607)
+
 # Flutter
 1.[Flutter免费视频教程第一季：开发环境搭建](https://juejin.im/post/5be3d54cf265da611d6624d3)
 
