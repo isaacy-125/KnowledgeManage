@@ -65,6 +65,8 @@
 
 27.[使用 React.memo 和 useMemo 对 Function Component 进行性能优化](http://www.ptbird.cn/react-hook-useMemo-purerender.html)
 
+28.[用react-query解决你一半的状态管理问题](https://juejin.cn/post/6930542093840416776)
+
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 
