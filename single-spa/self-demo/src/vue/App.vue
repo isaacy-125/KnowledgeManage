@@ -1,9 +1,14 @@
 <template>
-    <div>123</div>
+    <div @click="text += 1">{{ text }}</div>
 </template>
 <script>
     export default {
-        name: 'App'
+        name: 'App',
+        data() {
+          return {
+            text: 1,
+          }
+        }
     }
 </script>
 
