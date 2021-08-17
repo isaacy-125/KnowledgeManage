@@ -275,6 +275,9 @@
 
 41.[观察者模式 vs 发布订阅模式](https://juejin.cn/post/6844903733738864654)
 
+# Npm
+1.[yalc 更适普的前端link工具](https://segmentfault.com/a/1190000039658156)
+
 # Testing
 1.[cypress入门的笔记](https://www.cnblogs.com/catsinwinter/p/11447106.html)
 
