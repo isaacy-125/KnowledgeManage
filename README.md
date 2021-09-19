@@ -383,6 +383,8 @@
 
 2.[Nginx-Ubuntu中文](http://wiki.ubuntu.org.cn/Nginx)
 
+3.[使用docker安装nginx](https://juejin.cn/post/6844904016086827016)
+
 # CI/CD
 1.[前端进阶之路-利用Jenkins快速打造前端项目自动化工作流](https://juejin.im/post/5bc000826fb9a05d330adf9d)
 
