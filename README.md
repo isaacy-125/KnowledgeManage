@@ -67,6 +67,8 @@
 
 28.[用react-query解决你一半的状态管理问题](https://juejin.cn/post/6930542093840416776)
 
+29.[useEffect和useLayoutEffect的区别](https://blog.csdn.net/qq_38164763/article/details/113532855)
+
 # Vue
 1.[解决vue持久化--vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 
